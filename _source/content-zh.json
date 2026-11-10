@@ -1,0 +1,1915 @@
+{
+  "schema_version": "1.0",
+  "profile": {
+    "name": "Shiyang Ma",
+    "subtitle": "上海交通大学副教授",
+    "primary_url": "https://shiyangm.github.io/",
+    "social_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/shiyangm"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/shiyang-ma"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-4423-5798"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=a23UFoYAAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "experience-1",
+      "text": "副教授（2024/1–至今），上海交通大学医学院、数学科学学院，中国上海",
+      "text_with_subitems": "副教授（2024/1–至今），上海交通大学医学院、数学科学学院，中国上海",
+      "html": "副教授（2024/1–至今），上海交通大学医学院、数学科学学院，中国上海",
+      "summary_html": "副教授（2024/1–至今），上海交通大学医学院、数学科学学院，中国上海",
+      "source_markdown": "* Associate Professor (2024/1-present), School of Medicine, School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China",
+      "links": [],
+      "children": [],
+      "title": "副教授",
+      "period": "2024/1-present",
+      "institution_text": "School of Medicine, School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China",
+      "original_text": "Associate Professor (2024/1-present), School of Medicine, School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China",
+      "original_title": "Associate Professor"
+    },
+    {
+      "id": "experience-2",
+      "text": "助理教授（2022/11–2023/12），上海交通大学医学院，中国上海",
+      "text_with_subitems": "助理教授（2022/11–2023/12），上海交通大学医学院，中国上海",
+      "html": "助理教授（2022/11–2023/12），上海交通大学医学院，中国上海",
+      "summary_html": "助理教授（2022/11–2023/12），上海交通大学医学院，中国上海",
+      "source_markdown": "* Assistant Professor (2022/11-2023/12), School of Medicine, Shanghai Jiao Tong University, Shanghai, China",
+      "links": [],
+      "children": [],
+      "title": "助理教授",
+      "period": "2022/11-2023/12",
+      "institution_text": "School of Medicine, Shanghai Jiao Tong University, Shanghai, China",
+      "original_text": "Assistant Professor (2022/11-2023/12), School of Medicine, Shanghai Jiao Tong University, Shanghai, China",
+      "original_title": "Assistant Professor"
+    },
+    {
+      "id": "experience-3",
+      "text": "博士后研究员（2019/10–2022/09），哥伦比亚大学生物统计学系，美国纽约",
+      "text_with_subitems": "博士后研究员（2019/10–2022/09），哥伦比亚大学生物统计学系，美国纽约 导师： Prof. Iuliana Ionita-Laza",
+      "html": "博士后研究员（2019/10–2022/09），哥伦比亚大学生物统计学系，美国纽约<ul><li>导师： <a href=\"http://www.columbia.edu/~ii2135/\">Prof. Iuliana Ionita-Laza</a></li></ul>",
+      "summary_html": "博士后研究员（2019/10–2022/09），哥伦比亚大学生物统计学系，美国纽约",
+      "source_markdown": "* Postdoctoral Research Scientist (2019/10-2022/09), Department of Biostatistics, Columbia University, New York, NY\n    - Supervisor: [Prof. Iuliana Ionita-Laza](http://www.columbia.edu/~ii2135/)",
+      "links": [
+        {
+          "label": "Prof. Iuliana Ionita-Laza",
+          "url": "http://www.columbia.edu/~ii2135/"
+        }
+      ],
+      "children": [
+        {
+          "text": "导师： Prof. Iuliana Ionita-Laza",
+          "html": "导师： <a href=\"http://www.columbia.edu/~ii2135/\">Prof. Iuliana Ionita-Laza</a>",
+          "source_markdown": "Supervisor: [Prof. Iuliana Ionita-Laza](http://www.columbia.edu/~ii2135/)",
+          "links": [
+            {
+              "label": "Prof. Iuliana Ionita-Laza",
+              "url": "http://www.columbia.edu/~ii2135/"
+            }
+          ],
+          "children": [],
+          "original_text": "Supervisor: Prof. Iuliana Ionita-Laza"
+        }
+      ],
+      "title": "博士后研究员",
+      "period": "2019/10-2022/09",
+      "institution_text": "Department of Biostatistics, Columbia University, New York, NY",
+      "original_text": "Postdoctoral Research Scientist (2019/10-2022/09), Department of Biostatistics, Columbia University, New York, NY",
+      "original_title": "Postdoctoral Research Scientist"
+    }
+  ],
+  "education": [
+    {
+      "id": "education-1",
+      "text": "统计学博士（Ph.D.，2019），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "text_with_subitems": "统计学博士（Ph.D.，2019），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特 导师： Prof. Michael P. McDermott 和 Prof. David Oakes 博士论文： Methods for Improving Efficiency in Clinical Trials",
+      "html": "统计学博士（Ph.D.，2019），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特<ul><li>导师： <a href=\"https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx\">Prof. Michael P. McDermott</a> 和 <a href=\"https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx\">Prof. David Oakes</a></li><li>博士论文： <a href=\"https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&amp;fromopenview=true\">Methods for Improving Efficiency in Clinical Trials</a></li></ul>",
+      "summary_html": "统计学博士（Ph.D.，2019），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "source_markdown": "*  Ph.D. in Statistics (2019), Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY  \n    - Advisors: [Prof. Michael P. McDermott](https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx) and [Prof. David Oakes](https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx)       \n    - Dissertation: [Methods for Improving Efficiency in Clinical Trials](https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&fromopenview=true)",
+      "links": [
+        {
+          "label": "Prof. Michael P. McDermott",
+          "url": "https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx"
+        },
+        {
+          "label": "Prof. David Oakes",
+          "url": "https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx"
+        },
+        {
+          "label": "Methods for Improving Efficiency in Clinical Trials",
+          "url": "https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&fromopenview=true"
+        }
+      ],
+      "children": [
+        {
+          "text": "导师： Prof. Michael P. McDermott 和 Prof. David Oakes",
+          "html": "导师： <a href=\"https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx\">Prof. Michael P. McDermott</a> 和 <a href=\"https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx\">Prof. David Oakes</a>",
+          "source_markdown": "Advisors: [Prof. Michael P. McDermott](https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx) and [Prof. David Oakes](https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx)",
+          "links": [
+            {
+              "label": "Prof. Michael P. McDermott",
+              "url": "https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx"
+            },
+            {
+              "label": "Prof. David Oakes",
+              "url": "https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx"
+            }
+          ],
+          "children": [],
+          "original_text": "Advisors: Prof. Michael P. McDermott and Prof. David Oakes"
+        },
+        {
+          "text": "博士论文： Methods for Improving Efficiency in Clinical Trials",
+          "html": "博士论文： <a href=\"https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&amp;fromopenview=true\">Methods for Improving Efficiency in Clinical Trials</a>",
+          "source_markdown": "Dissertation: [Methods for Improving Efficiency in Clinical Trials](https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&fromopenview=true)",
+          "links": [
+            {
+              "label": "Methods for Improving Efficiency in Clinical Trials",
+              "url": "https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&fromopenview=true"
+            }
+          ],
+          "children": [],
+          "original_text": "Dissertation: Methods for Improving Efficiency in Clinical Trials"
+        }
+      ],
+      "title": "统计学博士（Ph.D.）",
+      "year": 2019,
+      "institution_text": "Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY",
+      "original_text": "Ph.D. in Statistics (2019), Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY",
+      "original_title": "Ph.D. in Statistics"
+    },
+    {
+      "id": "education-2",
+      "text": "统计学硕士（M.A.，2016），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "text_with_subitems": "统计学硕士（M.A.，2016），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "html": "统计学硕士（M.A.，2016），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "summary_html": "统计学硕士（M.A.，2016），罗切斯特大学生物统计与计算生物学系，美国纽约州罗切斯特",
+      "source_markdown": "*  M.A. in Statistics (2016), Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY",
+      "links": [],
+      "children": [],
+      "title": "统计学硕士（M.A.）",
+      "year": 2016,
+      "institution_text": "Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY",
+      "original_text": "M.A. in Statistics (2016), Department of Biostatistics and Computational Biology, University of Rochester, Rochester, NY",
+      "original_title": "M.A. in Statistics"
+    },
+    {
+      "id": "education-3",
+      "text": "数学学士（B.S.，2014），四川大学数学学院，中国成都",
+      "text_with_subitems": "数学学士（B.S.，2014），四川大学数学学院，中国成都",
+      "html": "数学学士（B.S.，2014），四川大学数学学院，中国成都",
+      "summary_html": "数学学士（B.S.，2014），四川大学数学学院，中国成都",
+      "source_markdown": "*  B.S. in Mathematics (2014), Department of Mathematics, Sichuan University, Chengdu, China",
+      "links": [],
+      "children": [],
+      "title": "数学学士（B.S.）",
+      "year": 2014,
+      "institution_text": "Department of Mathematics, Sichuan University, Chengdu, China",
+      "original_text": "B.S. in Mathematics (2014), Department of Mathematics, Sichuan University, Chengdu, China",
+      "original_title": "B.S. in Mathematics"
+    }
+  ],
+  "research_interests": [
+    {
+      "id": "research-interests-1",
+      "text": "统计遗传学",
+      "text_with_subitems": "统计遗传学 开发用于分析高维遗传与基因组数据的统计及计算方法。",
+      "html": "统计遗传学<ul><li>开发用于分析高维遗传与基因组数据的统计及计算方法。</li></ul>",
+      "summary_html": "统计遗传学",
+      "source_markdown": "* **Statistical genetics**\n   - Development of statistical and computational methods for analyzing high-dimensional genetic and genomic data",
+      "links": [],
+      "children": [
+        {
+          "text": "开发用于分析高维遗传与基因组数据的统计及计算方法。",
+          "html": "开发用于分析高维遗传与基因组数据的统计及计算方法。",
+          "source_markdown": "Development of statistical and computational methods for analyzing high-dimensional genetic and genomic data",
+          "links": [],
+          "children": []
+        }
+      ],
+      "title": "统计遗传学",
+      "description": "开发用于分析高维遗传与基因组数据的统计及计算方法。",
+      "original_text": "Statistical genetics",
+      "original_title": "Statistical genetics"
+    },
+    {
+      "id": "research-interests-2",
+      "text": "生物统计学",
+      "text_with_subitems": "生物统计学 开发并应用用于变量选择和临床研究的统计方法。",
+      "html": "生物统计学<ul><li>开发并应用用于变量选择和临床研究的统计方法。</li></ul>",
+      "summary_html": "生物统计学",
+      "source_markdown": "* **Biostatistics** \n   - Development and application of statistical methods for variable selection and clinical research",
+      "links": [],
+      "children": [
+        {
+          "text": "开发并应用用于变量选择和临床研究的统计方法。",
+          "html": "开发并应用用于变量选择和临床研究的统计方法。",
+          "source_markdown": "Development and application of statistical methods for variable selection and clinical research",
+          "links": [],
+          "children": []
+        }
+      ],
+      "title": "生物统计学",
+      "description": "开发并应用用于变量选择和临床研究的统计方法。",
+      "original_text": "Biostatistics",
+      "original_title": "Biostatistics"
+    }
+  ],
+  "publications": [
+    {
+      "id": "publications-1",
+      "text": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., Ma, S., Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "text_with_subitems": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., Ma, S., Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "html": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., <strong>Ma, S.</strong>, Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "summary_html": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., <strong>Ma, S.</strong>, Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "source_markdown": "* Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., **Ma, S.**, Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "links": [],
+      "children": [],
+      "authors": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., Ma, S., Dong, Q. and Liu, W.",
+      "year": 2026,
+      "title": "通过 RNA 锚定的多组学反卷积解析空间细胞组织结构",
+      "journal": null,
+      "url": null,
+      "journal_details": null,
+      "notes": [],
+      "citation": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., Ma, S., Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "citation_html": "Bai, Y., Guan, X., Xiong, S., Guo, X., Wang, X., Yi, S., Ju, W., <strong>Ma, S.</strong>, Dong, Q. and Liu, W. (2026). Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution.",
+      "original_title": "Deciphering spatial cellular organization through RNA-anchored multi-omics deconvolution."
+    },
+    {
+      "id": "publications-2",
+      "text": "Niu, T., Yu, K., Luo, S.* and Ma, S.* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "text_with_subitems": "Niu, T., Yu, K., Luo, S.* and Ma, S.* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "html": "Niu, T., Yu, K., Luo, S.* and <strong>Ma, S.</strong>* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "summary_html": "Niu, T., Yu, K., Luo, S.* and <strong>Ma, S.</strong>* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "source_markdown": "* Niu, T., Yu, K., Luo, S.\\* and **Ma, S.**\\* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "links": [],
+      "children": [],
+      "authors": "Niu, T., Yu, K., Luo, S.* and Ma, S.*",
+      "year": 2026,
+      "title": "MARV：基于多变量指数族的罕见变异关联分析 SKAT 与 Burden 检验",
+      "journal": null,
+      "url": null,
+      "journal_details": null,
+      "notes": [
+        "*Co-corresponding author."
+      ],
+      "citation": "Niu, T., Yu, K., Luo, S.* and Ma, S.* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "citation_html": "Niu, T., Yu, K., Luo, S.* and <strong>Ma, S.</strong>* (2026). MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis. *Co-corresponding author.",
+      "original_title": "MARV: MultivAriate exponential family-based SKAT and Burden tests for Rare Variant association analysis."
+    },
+    {
+      "id": "publications-3",
+      "text": "Wang, Y., Huang, D., Ma, S., Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "text_with_subitems": "Wang, Y., Huang, D., Ma, S., Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "html": "Wang, Y., Huang, D., <strong>Ma, S.</strong>, Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "summary_html": "Wang, Y., Huang, D., <strong>Ma, S.</strong>, Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "source_markdown": "* Wang, Y., Huang, D., **Ma, S.**, Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "links": [],
+      "children": [],
+      "authors": "Wang, Y., Huang, D., Ma, S., Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z.",
+      "year": 2026,
+      "title": "利用大规模常规临床数据开展 AI 辅助的脑小血管病机会性筛查",
+      "journal": null,
+      "url": null,
+      "journal_details": null,
+      "notes": [],
+      "citation": "Wang, Y., Huang, D., Ma, S., Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "citation_html": "Wang, Y., Huang, D., <strong>Ma, S.</strong>, Cui, Y., Yuan, X., Gao, R., Sun, X., Xia, Y., Zhang, Y., Li, P. and Yu, Z. (2026). AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data.",
+      "original_title": "AI-enabled opportunistic screening of cerebral small vessel disease using large-scale routine clinical data."
+    },
+    {
+      "id": "publications-4",
+      "text": "Shen, Y., Wang, T.* and Ma, S.* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "text_with_subitems": "Shen, Y., Wang, T.* and Ma, S.* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "html": "Shen, Y., Wang, T.* and <strong>Ma, S.</strong>* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "summary_html": "Shen, Y., Wang, T.* and <strong>Ma, S.</strong>* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "source_markdown": "* Shen, Y., Wang, T.\\* and **Ma, S.**\\* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "links": [],
+      "children": [],
+      "authors": "Shen, Y., Wang, T.* and Ma, S.*",
+      "year": 2026,
+      "title": "KnockoffPipeline：基于 Knockoff 的全基因组关联分析统一 R 工作流程",
+      "journal": null,
+      "url": null,
+      "journal_details": null,
+      "notes": [
+        "*Corresponding author."
+      ],
+      "citation": "Shen, Y., Wang, T.* and Ma, S.* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "citation_html": "Shen, Y., Wang, T.* and <strong>Ma, S.</strong>* (2026). KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis. *Corresponding author.",
+      "original_title": "KnockoffPipeline: A Unified R Workflow for Knockoff-Based Genome-Wide Association Analysis."
+    },
+    {
+      "id": "publications-5",
+      "text": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, Ma, S.* and Zhang, T.* (2026). Cox-MK: a model-X knockoff method for genome-wide survival association analysis. Genetics, 233, iyag123. *Co-corresponding author.",
+      "text_with_subitems": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, Ma, S.* and Zhang, T.* (2026). Cox-MK: a model-X knockoff method for genome-wide survival association analysis. Genetics, 233, iyag123. *Co-corresponding author.",
+      "html": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, <strong>Ma, S.</strong>* and Zhang, T.* (2026). <a href=\"https://doi.org/10.1093/genetics/iyag123\">Cox-MK: a model-X knockoff method for genome-wide survival association analysis</a>. <em><strong>Genetics</strong></em>, 233, iyag123. *Co-corresponding author.",
+      "summary_html": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, <strong>Ma, S.</strong>* and Zhang, T.* (2026). <a href=\"https://doi.org/10.1093/genetics/iyag123\">Cox-MK: a model-X knockoff method for genome-wide survival association analysis</a>. <em><strong>Genetics</strong></em>, 233, iyag123. *Co-corresponding author.",
+      "source_markdown": "* Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.\\*, **Ma, S.**\\* and Zhang, T.\\* (2026). [Cox-MK: a model-X knockoff method for genome-wide survival association analysis](https://doi.org/10.1093/genetics/iyag123). _**Genetics**_, 233, iyag123. *Co-corresponding author.",
+      "links": [
+        {
+          "label": "Cox-MK: a model-X knockoff method for genome-wide survival association analysis",
+          "url": "https://doi.org/10.1093/genetics/iyag123"
+        }
+      ],
+      "children": [],
+      "authors": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, Ma, S.* and Zhang, T.*",
+      "year": 2026,
+      "title": "Cox-MK：用于全基因组生存关联分析的 model-X knockoff 方法",
+      "journal": "Genetics",
+      "url": "https://doi.org/10.1093/genetics/iyag123",
+      "journal_details": "233, iyag123. *Co-corresponding author.",
+      "notes": [
+        "*Co-corresponding author."
+      ],
+      "citation": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, Ma, S.* and Zhang, T.* (2026). Cox-MK: a model-X knockoff method for genome-wide survival association analysis. Genetics, 233, iyag123. *Co-corresponding author.",
+      "citation_html": "Hu, L., Yang, C., Tang, Z., Yan, J., Cheng, H., Bao, L., Ji, J.*, <strong>Ma, S.</strong>* and Zhang, T.* (2026). <a href=\"https://doi.org/10.1093/genetics/iyag123\">Cox-MK: a model-X knockoff method for genome-wide survival association analysis</a>. <em><strong>Genetics</strong></em>, 233, iyag123. *Co-corresponding author.",
+      "original_title": "Cox-MK: a model-X knockoff method for genome-wide survival association analysis"
+    },
+    {
+      "id": "publications-6",
+      "text": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., Ma, S.* and Xi, R.* (2026). SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data. Genome Biology, 27, 182. *Co-corresponding author.",
+      "text_with_subitems": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., Ma, S.* and Xi, R.* (2026). SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data. Genome Biology, 27, 182. *Co-corresponding author.",
+      "html": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., <strong>Ma, S.</strong>* and Xi, R.* (2026). <a href=\"https://doi.org/10.1186/s13059-026-04069-z\">SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data</a>. <em><strong>Genome Biology</strong></em>, 27, 182. *Co-corresponding author.",
+      "summary_html": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., <strong>Ma, S.</strong>* and Xi, R.* (2026). <a href=\"https://doi.org/10.1186/s13059-026-04069-z\">SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data</a>. <em><strong>Genome Biology</strong></em>, 27, 182. *Co-corresponding author.",
+      "source_markdown": "* Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., **Ma, S.**\\* and Xi, R.\\* (2026). [SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data](https://doi.org/10.1186/s13059-026-04069-z). _**Genome Biology**_, 27, 182. *Co-corresponding author.",
+      "links": [
+        {
+          "label": "SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data",
+          "url": "https://doi.org/10.1186/s13059-026-04069-z"
+        }
+      ],
+      "children": [],
+      "authors": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., Ma, S.* and Xi, R.*",
+      "year": 2026,
+      "title": "SpaNiche：通过空间生态位分析探索空间转录组数据中的共定位模式与细胞相互作用",
+      "journal": "Genome Biology",
+      "url": "https://doi.org/10.1186/s13059-026-04069-z",
+      "journal_details": "27, 182. *Co-corresponding author.",
+      "notes": [
+        "*Co-corresponding author."
+      ],
+      "citation": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., Ma, S.* and Xi, R.* (2026). SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data. Genome Biology, 27, 182. *Co-corresponding author.",
+      "citation_html": "Huang, S., Ran, Q., Wang, X., Tang, J., Xi, J., <strong>Ma, S.</strong>* and Xi, R.* (2026). <a href=\"https://doi.org/10.1186/s13059-026-04069-z\">SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data</a>. <em><strong>Genome Biology</strong></em>, 27, 182. *Co-corresponding author.",
+      "original_title": "SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data"
+    },
+    {
+      "id": "publications-7",
+      "text": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., Ma, S., Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). Introduction to secure data sharing in primary care using the federated causal learning models. BMJ Health & Care Informatics 33, e101543.",
+      "text_with_subitems": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., Ma, S., Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). Introduction to secure data sharing in primary care using the federated causal learning models. BMJ Health & Care Informatics 33, e101543.",
+      "html": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., <strong>Ma, S.</strong>, Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). <a href=\"https://informatics.bmj.com/content/33/1/e101543\">Introduction to secure data sharing in primary care using the federated causal learning models</a>. <em><strong>BMJ Health &amp; Care Informatics</strong></em> 33, e101543.",
+      "summary_html": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., <strong>Ma, S.</strong>, Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). <a href=\"https://informatics.bmj.com/content/33/1/e101543\">Introduction to secure data sharing in primary care using the federated causal learning models</a>. <em><strong>BMJ Health &amp; Care Informatics</strong></em> 33, e101543.",
+      "source_markdown": "* Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., **Ma, S.**, Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). [Introduction to secure data sharing in primary care using the federated causal learning models](https://informatics.bmj.com/content/33/1/e101543). _**BMJ Health & Care Informatics**_ 33, e101543.",
+      "links": [
+        {
+          "label": "Introduction to secure data sharing in primary care using the federated causal learning models",
+          "url": "https://informatics.bmj.com/content/33/1/e101543"
+        }
+      ],
+      "children": [],
+      "authors": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., Ma, S., Liao, J., Jiang, X., Li, J., and Zhang, T.",
+      "year": 2026,
+      "title": "利用联邦因果学习模型实现基层医疗安全数据共享：方法介绍",
+      "journal": "BMJ Health & Care Informatics",
+      "url": "https://informatics.bmj.com/content/33/1/e101543",
+      "journal_details": "33, e101543.",
+      "notes": [],
+      "citation": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., Ma, S., Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). Introduction to secure data sharing in primary care using the federated causal learning models. BMJ Health & Care Informatics 33, e101543.",
+      "citation_html": "Chen, M., Chang, Z., Gong, P., Tang, Z., Hu, L., Zhang, X., <strong>Ma, S.</strong>, Liao, J., Jiang, X., Li, J., and Zhang, T. (2026). <a href=\"https://informatics.bmj.com/content/33/1/e101543\">Introduction to secure data sharing in primary care using the federated causal learning models</a>. <em><strong>BMJ Health &amp; Care Informatics</strong></em> 33, e101543.",
+      "original_title": "Introduction to secure data sharing in primary care using the federated causal learning models"
+    },
+    {
+      "id": "publications-8",
+      "text": "Cui, Y.#, Ma, S.#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies. Journal of the American Statistical Association, 121, 905–916. #Co-first author.",
+      "text_with_subitems": "Cui, Y.#, Ma, S.#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies. Journal of the American Statistical Association, 121, 905–916. #Co-first author.",
+      "html": "Cui, Y.#, <strong>Ma, S.</strong>#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) <a href=\"https://doi.org/10.1080/01621459.2025.2606388\">SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies</a>. <em><strong>Journal of the American Statistical Association</strong></em>, 121, 905–916.  #Co-first author.",
+      "summary_html": "Cui, Y.#, <strong>Ma, S.</strong>#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) <a href=\"https://doi.org/10.1080/01621459.2025.2606388\">SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies</a>. <em><strong>Journal of the American Statistical Association</strong></em>, 121, 905–916.  #Co-first author.",
+      "source_markdown": "* Cui, Y.\\#, **Ma, S.**\\#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) [SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies](https://doi.org/10.1080/01621459.2025.2606388). _**Journal of the American Statistical Association**_, 121, 905–916.  \\#Co-first author.",
+      "links": [
+        {
+          "label": "SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies",
+          "url": "https://doi.org/10.1080/01621459.2025.2606388"
+        }
+      ],
+      "children": [],
+      "authors": "Cui, Y.#, Ma, S.#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z.",
+      "year": 2026,
+      "title": "SurvSTAAR：大规模全基因组测序研究中事件发生时间性状罕见变异分析的强效统计框架",
+      "journal": "Journal of the American Statistical Association",
+      "url": "https://doi.org/10.1080/01621459.2025.2606388",
+      "journal_details": "121, 905–916. #Co-first author.",
+      "notes": [
+        "#Co-first author."
+      ],
+      "citation": "Cui, Y.#, Ma, S.#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies. Journal of the American Statistical Association, 121, 905–916. #Co-first author.",
+      "citation_html": "Cui, Y.#, <strong>Ma, S.</strong>#, Yuan, Y., Zhu, N., Chen, H., Wei, T., Li, Z., Li, X. and Yu, Z. (2026) <a href=\"https://doi.org/10.1080/01621459.2025.2606388\">SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies</a>. <em><strong>Journal of the American Statistical Association</strong></em>, 121, 905–916.  #Co-first author.",
+      "original_title": "SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies"
+    },
+    {
+      "id": "publications-9",
+      "text": "Ma, S., Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating. The American Journal of Human Genetics, 111, 2839-2848.",
+      "text_with_subitems": "Ma, S., Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating. The American Journal of Human Genetics, 111, 2839-2848.",
+      "html": "<strong>Ma, S.</strong>, Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) <a href=\"https://doi.org/10.1016/j.ajhg.2024.10.012\">Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating</a>. <em><strong>The American Journal of Human Genetics</strong></em>, 111, 2839-2848.",
+      "summary_html": "<strong>Ma, S.</strong>, Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) <a href=\"https://doi.org/10.1016/j.ajhg.2024.10.012\">Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating</a>. <em><strong>The American Journal of Human Genetics</strong></em>, 111, 2839-2848.",
+      "source_markdown": "* **Ma, S.**, Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) [Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating](https://doi.org/10.1016/j.ajhg.2024.10.012). _**The American Journal of Human Genetics**_, 111, 2839-2848.",
+      "links": [
+        {
+          "label": "Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating",
+          "url": "https://doi.org/10.1016/j.ajhg.2024.10.012"
+        }
+      ],
+      "children": [],
+      "authors": "Ma, S., Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I.",
+      "year": 2024,
+      "title": "利用 Knockoff 估计局部遗传相关性，减少跨性状择偶带来的混杂",
+      "journal": "The American Journal of Human Genetics",
+      "url": "https://doi.org/10.1016/j.ajhg.2024.10.012",
+      "journal_details": "111, 2839-2848.",
+      "notes": [],
+      "citation": "Ma, S., Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating. The American Journal of Human Genetics, 111, 2839-2848.",
+      "citation_html": "<strong>Ma, S.</strong>, Wang, F., Border, R., Buxbaum, J., Zaitlen, N. and Ionita-Laza, I. (2024) <a href=\"https://doi.org/10.1016/j.ajhg.2024.10.012\">Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating</a>. <em><strong>The American Journal of Human Genetics</strong></em>, 111, 2839-2848.",
+      "original_title": "Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating"
+    },
+    {
+      "id": "publications-10",
+      "text": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., Ma, S.* and Yu, Z.* (2024) High-dimensional mediation analysis for longitudinal data. Briefings in Bioinformatics, 25, bbae496. *Co-corresponding author.",
+      "text_with_subitems": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., Ma, S.* and Yu, Z.* (2024) High-dimensional mediation analysis for longitudinal data. Briefings in Bioinformatics, 25, bbae496. *Co-corresponding author.",
+      "html": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., <strong>Ma, S.</strong>* and Yu, Z.* (2024) <a href=\"https://doi.org/10.1093/bib/bbae496\">High-dimensional mediation analysis for longitudinal data</a>. <em><strong>Briefings in Bioinformatics</strong></em>, 25, bbae496. *Co-corresponding author.",
+      "summary_html": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., <strong>Ma, S.</strong>* and Yu, Z.* (2024) <a href=\"https://doi.org/10.1093/bib/bbae496\">High-dimensional mediation analysis for longitudinal data</a>. <em><strong>Briefings in Bioinformatics</strong></em>, 25, bbae496. *Co-corresponding author.",
+      "source_markdown": "* Cui, Y., Lin, Q., Zhou, J., Yuan, X., **Ma, S.**\\* and Yu, Z.\\* (2024) [High-dimensional mediation analysis for longitudinal data](https://doi.org/10.1093/bib/bbae496). _**Briefings in Bioinformatics**_, 25, bbae496. *Co-corresponding author.",
+      "links": [
+        {
+          "label": "High-dimensional mediation analysis for longitudinal data",
+          "url": "https://doi.org/10.1093/bib/bbae496"
+        }
+      ],
+      "children": [],
+      "authors": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., Ma, S.* and Yu, Z.*",
+      "year": 2024,
+      "title": "纵向数据的高维中介分析",
+      "journal": "Briefings in Bioinformatics",
+      "url": "https://doi.org/10.1093/bib/bbae496",
+      "journal_details": "25, bbae496. *Co-corresponding author.",
+      "notes": [
+        "*Co-corresponding author."
+      ],
+      "citation": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., Ma, S.* and Yu, Z.* (2024) High-dimensional mediation analysis for longitudinal data. Briefings in Bioinformatics, 25, bbae496. *Co-corresponding author.",
+      "citation_html": "Cui, Y., Lin, Q., Zhou, J., Yuan, X., <strong>Ma, S.</strong>* and Yu, Z.* (2024) <a href=\"https://doi.org/10.1093/bib/bbae496\">High-dimensional mediation analysis for longitudinal data</a>. <em><strong>Briefings in Bioinformatics</strong></em>, 25, bbae496. *Co-corresponding author.",
+      "original_title": "High-dimensional mediation analysis for longitudinal data"
+    },
+    {
+      "id": "publications-11",
+      "text": "Sun, X.#, Ma, S.#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility. Ecotoxicology and Environmental Safety, 281, 116638. #Co-first author.",
+      "text_with_subitems": "Sun, X.#, Ma, S.#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility. Ecotoxicology and Environmental Safety, 281, 116638. #Co-first author.",
+      "html": "Sun, X.#, <strong>Ma, S.</strong>#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) <a href=\"https://www.sciencedirect.com/science/article/pii/S0147651324007140\">The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility</a>. <em><strong>Ecotoxicology and Environmental Safety</strong></em>, 281, 116638. #Co-first author.",
+      "summary_html": "Sun, X.#, <strong>Ma, S.</strong>#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) <a href=\"https://www.sciencedirect.com/science/article/pii/S0147651324007140\">The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility</a>. <em><strong>Ecotoxicology and Environmental Safety</strong></em>, 281, 116638. #Co-first author.",
+      "source_markdown": "* Sun, X.\\#, **Ma, S.**\\#, Guo, Y.,\\#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) [The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility](https://www.sciencedirect.com/science/article/pii/S0147651324007140). _**Ecotoxicology and Environmental Safety**_, 281, 116638. \\#Co-first author.",
+      "links": [
+        {
+          "label": "The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0147651324007140"
+        }
+      ],
+      "children": [],
+      "authors": "Sun, X.#, Ma, S.#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P.",
+      "year": 2024,
+      "title": "空气污染物暴露与脑小血管病的关联：PRS 定义的遗传易感性的修饰作用",
+      "journal": "Ecotoxicology and Environmental Safety",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0147651324007140",
+      "journal_details": "281, 116638. #Co-first author.",
+      "notes": [
+        "#Co-first author."
+      ],
+      "citation": "Sun, X.#, Ma, S.#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility. Ecotoxicology and Environmental Safety, 281, 116638. #Co-first author.",
+      "citation_html": "Sun, X.#, <strong>Ma, S.</strong>#, Guo, Y.,#, Chen, C., Pan, L., Cui, Y., Chen, Z., Dijkhuizen, R. M., Zhou, Y., Boltze, J., Yu, Z. and Li, P. (2024) <a href=\"https://www.sciencedirect.com/science/article/pii/S0147651324007140\">The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility</a>. <em><strong>Ecotoxicology and Environmental Safety</strong></em>, 281, 116638. #Co-first author.",
+      "original_title": "The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility"
+    },
+    {
+      "id": "publications-12",
+      "text": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., Ma, S., Wei, T., Ma, S. and Yu, Z. (2024) HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data. Nature Communications, 15, 5700.",
+      "text_with_subitems": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., Ma, S., Wei, T., Ma, S. and Yu, Z. (2024) HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data. Nature Communications, 15, 5700.",
+      "html": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., <strong>Ma, S.</strong>, Wei, T., Ma, S. and Yu, Z. (2024) <a href=\"https://doi.org/10.1038/s41467-024-49846-1\">HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data</a>. <em><strong>Nature Communications</strong></em>, 15, 5700.",
+      "summary_html": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., <strong>Ma, S.</strong>, Wei, T., Ma, S. and Yu, Z. (2024) <a href=\"https://doi.org/10.1038/s41467-024-49846-1\">HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data</a>. <em><strong>Nature Communications</strong></em>, 15, 5700.",
+      "source_markdown": "* Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., **Ma, S.**, Wei, T., Ma, S. and Yu, Z. (2024) [HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data](https://doi.org/10.1038/s41467-024-49846-1). _**Nature Communications**_, 15, 5700.",
+      "links": [
+        {
+          "label": "HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data",
+          "url": "https://doi.org/10.1038/s41467-024-49846-1"
+        }
+      ],
+      "children": [],
+      "authors": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., Ma, S., Wei, T., Ma, S. and Yu, Z.",
+      "year": 2024,
+      "title": "HEARTSVG：大规模空间转录组数据中快速、准确识别空间变异基因的方法",
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-024-49846-1",
+      "journal_details": "15, 5700.",
+      "notes": [],
+      "citation": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., Ma, S., Wei, T., Ma, S. and Yu, Z. (2024) HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data. Nature Communications, 15, 5700.",
+      "citation_html": "Yuan, X., Ma, Y., Gao, R., Cui, S., Wang, Y., Fa, B., <strong>Ma, S.</strong>, Wei, T., Ma, S. and Yu, Z. (2024) <a href=\"https://doi.org/10.1038/s41467-024-49846-1\">HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data</a>. <em><strong>Nature Communications</strong></em>, 15, 5700.",
+      "original_title": "HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data"
+    },
+    {
+      "id": "publications-13",
+      "text": "Ma, S. and Wang, T. (2023). The optimal pre-post allocation for randomized clinical trials. BMC Medical Research Methodology, 23, 72.",
+      "text_with_subitems": "Ma, S. and Wang, T. (2023). The optimal pre-post allocation for randomized clinical trials. BMC Medical Research Methodology, 23, 72.",
+      "html": "<strong>Ma, S.</strong> and Wang, T. (2023). <a href=\"https://doi.org/10.1186/s12874-023-01893-w\">The optimal pre-post allocation for randomized clinical trials</a>. <em><strong>BMC Medical Research Methodology</strong></em>, 23, 72.",
+      "summary_html": "<strong>Ma, S.</strong> and Wang, T. (2023). <a href=\"https://doi.org/10.1186/s12874-023-01893-w\">The optimal pre-post allocation for randomized clinical trials</a>. <em><strong>BMC Medical Research Methodology</strong></em>, 23, 72.",
+      "source_markdown": "* **Ma, S.** and Wang, T. (2023). [The optimal pre-post allocation for randomized clinical trials](https://doi.org/10.1186/s12874-023-01893-w). _**BMC Medical Research Methodology**_, 23, 72.",
+      "links": [
+        {
+          "label": "The optimal pre-post allocation for randomized clinical trials",
+          "url": "https://doi.org/10.1186/s12874-023-01893-w"
+        }
+      ],
+      "children": [],
+      "authors": "Ma, S. and Wang, T.",
+      "year": 2023,
+      "title": "随机临床试验中的最优前后分配",
+      "journal": "BMC Medical Research Methodology",
+      "url": "https://doi.org/10.1186/s12874-023-01893-w",
+      "journal_details": "23, 72.",
+      "notes": [],
+      "citation": "Ma, S. and Wang, T. (2023). The optimal pre-post allocation for randomized clinical trials. BMC Medical Research Methodology, 23, 72.",
+      "citation_html": "<strong>Ma, S.</strong> and Wang, T. (2023). <a href=\"https://doi.org/10.1186/s12874-023-01893-w\">The optimal pre-post allocation for randomized clinical trials</a>. <em><strong>BMC Medical Research Methodology</strong></em>, 23, 72.",
+      "original_title": "The optimal pre-post allocation for randomized clinical trials"
+    },
+    {
+      "id": "publications-14",
+      "text": "Ma, S., Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data. Genome Biology, 24, 24.",
+      "text_with_subitems": "Ma, S., Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data. Genome Biology, 24, 24.",
+      "html": "<strong>Ma, S.</strong>, Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). <a href=\"https://doi.org/10.1186/s13059-023-02864-6\">BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data</a>. <em><strong>Genome Biology</strong></em>, 24, 24.",
+      "summary_html": "<strong>Ma, S.</strong>, Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). <a href=\"https://doi.org/10.1186/s13059-023-02864-6\">BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data</a>. <em><strong>Genome Biology</strong></em>, 24, 24.",
+      "source_markdown": "* **Ma, S.**, Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). [BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data](https://doi.org/10.1186/s13059-023-02864-6). _**Genome Biology**_, 24, 24.",
+      "links": [
+        {
+          "label": "BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data",
+          "url": "https://doi.org/10.1186/s13059-023-02864-6"
+        }
+      ],
+      "children": [],
+      "authors": "Ma, S., Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I.",
+      "year": 2023,
+      "title": "BIGKnock：通过生物样本库规模数据的 Knockoff 分析精细定位基因水平关联",
+      "journal": "Genome Biology",
+      "url": "https://doi.org/10.1186/s13059-023-02864-6",
+      "journal_details": "24, 24.",
+      "notes": [],
+      "citation": "Ma, S., Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data. Genome Biology, 24, 24.",
+      "citation_html": "<strong>Ma, S.</strong>, Wang, C., Khan, A., Liu, L., Dalgleish, J., Kiryluk, K., He, Z. and Ionita-Laza, I. (2023). <a href=\"https://doi.org/10.1186/s13059-023-02864-6\">BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data</a>. <em><strong>Genome Biology</strong></em>, 24, 24.",
+      "original_title": "BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data"
+    },
+    {
+      "id": "publications-15",
+      "text": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, Ma, S., Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies. Nature Communications, 13, 7209.",
+      "text_with_subitems": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, Ma, S., Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies. Nature Communications, 13, 7209.",
+      "html": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, <strong>Ma, S.</strong>, Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) <a href=\"https://doi.org/10.1038/s41467-022-34932-z\">GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies</a>. <em><strong>Nature Communications</strong></em>, 13, 7209.",
+      "summary_html": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, <strong>Ma, S.</strong>, Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) <a href=\"https://doi.org/10.1038/s41467-022-34932-z\">GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies</a>. <em><strong>Nature Communications</strong></em>, 13, 7209.",
+      "source_markdown": "* He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, **Ma, S.**, Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) [GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies](https://doi.org/10.1038/s41467-022-34932-z). _**Nature Communications**_, 13, 7209.",
+      "links": [
+        {
+          "label": "GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies",
+          "url": "https://doi.org/10.1038/s41467-022-34932-z"
+        }
+      ],
+      "children": [],
+      "authors": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, Ma, S., Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I.",
+      "year": 2022,
+      "title": "GhostKnockoff 推断助力全基因组关联研究识别潜在因果变异",
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-022-34932-z",
+      "journal_details": "13, 7209.",
+      "notes": [],
+      "citation": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, Ma, S., Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies. Nature Communications, 13, 7209.",
+      "citation_html": "He, Z., Liu, L., Belloy, M. E., Guen, Y. L., Sossin, A., Liu. X., Qi. X, <strong>Ma, S.</strong>, Gyawali, P. K., Wyss-Coray, T., Tang, H., Sabatti, C., Candès, E., Greicius, M. D. and Ionita-Laza, I. (2022) <a href=\"https://doi.org/10.1038/s41467-022-34932-z\">GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies</a>. <em><strong>Nature Communications</strong></em>, 13, 7209.",
+      "original_title": "GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies"
+    },
+    {
+      "id": "publications-16",
+      "text": "Ma, S., Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes. Proceedings of the National Academy of Sciences of the United States of America (direct submission), 118, e2105191118.",
+      "text_with_subitems": "Ma, S., Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes. Proceedings of the National Academy of Sciences of the United States of America (direct submission), 118, e2105191118.",
+      "html": "<strong>Ma, S.</strong>, Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). <a href=\"https://doi.org/10.1073/pnas.2105191118\">Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.</a> <em><strong>Proceedings of the National Academy of Sciences of the United States of America</strong></em> (direct submission), 118, e2105191118.",
+      "summary_html": "<strong>Ma, S.</strong>, Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). <a href=\"https://doi.org/10.1073/pnas.2105191118\">Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.</a> <em><strong>Proceedings of the National Academy of Sciences of the United States of America</strong></em> (direct submission), 118, e2105191118.",
+      "source_markdown": "* **Ma, S.**, Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). [Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.](https://doi.org/10.1073/pnas.2105191118) _**Proceedings of the National Academy of Sciences of the United States of America**_ (direct submission), 118, e2105191118.",
+      "links": [
+        {
+          "label": "Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.",
+          "url": "https://doi.org/10.1073/pnas.2105191118"
+        }
+      ],
+      "children": [],
+      "authors": "Ma, S., Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I.",
+      "year": 2021,
+      "title": "整合长程染色质相互作用与 Knockoff 基因型，提升基因水平检验效能",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "url": "https://doi.org/10.1073/pnas.2105191118",
+      "journal_details": "(direct submission), 118, e2105191118.",
+      "notes": [],
+      "citation": "Ma, S., Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes. Proceedings of the National Academy of Sciences of the United States of America (direct submission), 118, e2105191118.",
+      "citation_html": "<strong>Ma, S.</strong>, Dalgleish, J., Lee, J., Wang, C., Liu, L., Gill, R., Buxbaum, J. D., Chung, W. K., Aschard, H., Silverman, E. K., Cho, M. H., He, Z. and Ionita-Laza, I. (2021). <a href=\"https://doi.org/10.1073/pnas.2105191118\">Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.</a> <em><strong>Proceedings of the National Academy of Sciences of the United States of America</strong></em> (direct submission), 118, e2105191118.",
+      "original_title": "Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes."
+    },
+    {
+      "id": "publications-17",
+      "text": "He, Z., Guen, Y. L., Liu, L., Lee, J., Ma, S., Yang, A. C., Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics. The American Journal of Human Genetics, 108, 2336-2353.",
+      "text_with_subitems": "He, Z., Guen, Y. L., Liu, L., Lee, J., Ma, S., Yang, A. C., Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics. The American Journal of Human Genetics, 108, 2336-2353.",
+      "html": "He, Z., Guen, Y. L., Liu, L., Lee, J., <strong>Ma, S.</strong>, Yang, A. C.,  Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) <a href=\"https://doi.org/10.1016/j.ajhg.2021.10.009\">Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.</a> <em><strong>The American Journal of Human Genetics</strong></em>, 108, 2336-2353.",
+      "summary_html": "He, Z., Guen, Y. L., Liu, L., Lee, J., <strong>Ma, S.</strong>, Yang, A. C.,  Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) <a href=\"https://doi.org/10.1016/j.ajhg.2021.10.009\">Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.</a> <em><strong>The American Journal of Human Genetics</strong></em>, 108, 2336-2353.",
+      "source_markdown": "* He, Z., Guen, Y. L., Liu, L., Lee, J., **Ma, S.**, Yang, A. C.,  Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) [Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.](https://doi.org/10.1016/j.ajhg.2021.10.009) _**The American Journal of Human Genetics**_, 108, 2336-2353.",
+      "links": [
+        {
+          "label": "Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.",
+          "url": "https://doi.org/10.1016/j.ajhg.2021.10.009"
+        }
+      ],
+      "children": [],
+      "authors": "He, Z., Guen, Y. L., Liu, L., Lee, J., Ma, S., Yang, A. C., Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I.",
+      "year": 2021,
+      "title": "利用多个 Knockoff 在生物样本库规模开展常见及罕见变异的全基因组分析，并应用于阿尔茨海默病遗传学",
+      "journal": "The American Journal of Human Genetics",
+      "url": "https://doi.org/10.1016/j.ajhg.2021.10.009",
+      "journal_details": "108, 2336-2353.",
+      "notes": [],
+      "citation": "He, Z., Guen, Y. L., Liu, L., Lee, J., Ma, S., Yang, A. C., Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics. The American Journal of Human Genetics, 108, 2336-2353.",
+      "citation_html": "He, Z., Guen, Y. L., Liu, L., Lee, J., <strong>Ma, S.</strong>, Yang, A. C.,  Liu. X., Rutledge, J., Losada, P. M., Song, B., Belloy, M. E., Butler, R. R., Longo, F. M., Tang, H., Mormino, E. C., Wyss-Coray, T., Greicius, M. D. and Ionita-Laza, I. (2021) <a href=\"https://doi.org/10.1016/j.ajhg.2021.10.009\">Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.</a> <em><strong>The American Journal of Human Genetics</strong></em>, 108, 2336-2353.",
+      "original_title": "Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics."
+    },
+    {
+      "id": "publications-18",
+      "text": "Prasad, P., Brown, L., Ma, S., McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) “If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection. Infection Control and Hospital Epidemiology,, 42, 1351-1355.",
+      "text_with_subitems": "Prasad, P., Brown, L., Ma, S., McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) “If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection. Infection Control and Hospital Epidemiology,, 42, 1351-1355.",
+      "html": "Prasad, P., Brown, L., <strong>Ma, S.</strong>, McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) <a href=\"https://doi.org/10.1017/ice.2020.1422\">“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.</a> <em><strong>Infection Control and Hospital Epidemiology</strong></em>,, 42, 1351-1355.",
+      "summary_html": "Prasad, P., Brown, L., <strong>Ma, S.</strong>, McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) <a href=\"https://doi.org/10.1017/ice.2020.1422\">“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.</a> <em><strong>Infection Control and Hospital Epidemiology</strong></em>,, 42, 1351-1355.",
+      "source_markdown": "* Prasad, P., Brown, L., **Ma, S.**, McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) [“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.](https://doi.org/10.1017/ice.2020.1422) _**Infection Control and Hospital Epidemiology**_,, 42, 1351-1355.",
+      "links": [
+        {
+          "label": "“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.",
+          "url": "https://doi.org/10.1017/ice.2020.1422"
+        }
+      ],
+      "children": [],
+      "authors": "Prasad, P., Brown, L., Ma, S., McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M.",
+      "year": 2021,
+      "title": "“If the glove fits”：全院普遍佩戴手套与手卫生改善有关，并可能减少艰难梭菌感染",
+      "journal": "Infection Control and Hospital Epidemiology",
+      "url": "https://doi.org/10.1017/ice.2020.1422",
+      "journal_details": "42, 1351-1355.",
+      "notes": [],
+      "citation": "Prasad, P., Brown, L., Ma, S., McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) “If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection. Infection Control and Hospital Epidemiology,, 42, 1351-1355.",
+      "citation_html": "Prasad, P., Brown, L., <strong>Ma, S.</strong>, McDavid, A., Rudmann, A., Lent, D., Reagan-Webster, P., Valcin, K. E., Graman, P. and Apostolakos, M. (2021) <a href=\"https://doi.org/10.1017/ice.2020.1422\">“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.</a> <em><strong>Infection Control and Hospital Epidemiology</strong></em>,, 42, 1351-1355.",
+      "original_title": "“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection."
+    },
+    {
+      "id": "publications-19",
+      "text": "Ma, S.* and McDermott, M. P. (2020). Generalized multiple contrast tests in dose-response studies. Statistics in Medicine, 39, 757-772. *Corresponding author.",
+      "text_with_subitems": "Ma, S.* and McDermott, M. P. (2020). Generalized multiple contrast tests in dose-response studies. Statistics in Medicine, 39, 757-772. *Corresponding author.",
+      "html": "<strong>Ma, S.</strong>* and McDermott, M. P. (2020). <a href=\"https://doi.org/10.1002/sim.8444\">Generalized multiple contrast tests in dose-response studies.</a> <em><strong>Statistics in Medicine</strong></em>, 39, 757-772. *Corresponding author.",
+      "summary_html": "<strong>Ma, S.</strong>* and McDermott, M. P. (2020). <a href=\"https://doi.org/10.1002/sim.8444\">Generalized multiple contrast tests in dose-response studies.</a> <em><strong>Statistics in Medicine</strong></em>, 39, 757-772. *Corresponding author.",
+      "source_markdown": "* **Ma, S.**\\* and McDermott, M. P. (2020). [Generalized multiple contrast tests in dose-response studies.](https://doi.org/10.1002/sim.8444) _**Statistics in Medicine**_, 39, 757-772. *Corresponding author.",
+      "links": [
+        {
+          "label": "Generalized multiple contrast tests in dose-response studies.",
+          "url": "https://doi.org/10.1002/sim.8444"
+        }
+      ],
+      "children": [],
+      "authors": "Ma, S.* and McDermott, M. P.",
+      "year": 2020,
+      "title": "剂量–反应研究中的广义多重对比检验",
+      "journal": "Statistics in Medicine",
+      "url": "https://doi.org/10.1002/sim.8444",
+      "journal_details": "39, 757-772. *Corresponding author.",
+      "notes": [
+        "*Corresponding author."
+      ],
+      "citation": "Ma, S.* and McDermott, M. P. (2020). Generalized multiple contrast tests in dose-response studies. Statistics in Medicine, 39, 757-772. *Corresponding author.",
+      "citation_html": "<strong>Ma, S.</strong>* and McDermott, M. P. (2020). <a href=\"https://doi.org/10.1002/sim.8444\">Generalized multiple contrast tests in dose-response studies.</a> <em><strong>Statistics in Medicine</strong></em>, 39, 757-772. *Corresponding author.",
+      "original_title": "Generalized multiple contrast tests in dose-response studies."
+    },
+    {
+      "id": "publications-20",
+      "text": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., Ma, S., Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) Motor, cognitive, and functional declines contribute to a single progressive factor in early HD. Neurology, 89, 2495-2502.",
+      "text_with_subitems": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., Ma, S., Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) Motor, cognitive, and functional declines contribute to a single progressive factor in early HD. Neurology, 89, 2495-2502.",
+      "html": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., <strong>Ma, S.</strong>, Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) <a href=\"https://www.neurology.org/doi/10.1212/WNL.0000000000004743\">Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.</a> <em><strong>Neurology</strong></em>, 89, 2495-2502.",
+      "summary_html": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., <strong>Ma, S.</strong>, Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) <a href=\"https://www.neurology.org/doi/10.1212/WNL.0000000000004743\">Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.</a> <em><strong>Neurology</strong></em>, 89, 2495-2502.",
+      "source_markdown": "* Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., **Ma, S.**, Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) [Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.](https://www.neurology.org/doi/10.1212/WNL.0000000000004743) _**Neurology**_, 89, 2495-2502.",
+      "links": [
+        {
+          "label": "Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.",
+          "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000004743"
+        }
+      ],
+      "children": [],
+      "authors": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., Ma, S., Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators.",
+      "year": 2017,
+      "title": "早期亨廷顿病（HD）中运动、认知和功能下降共同构成一个进展因子",
+      "journal": "Neurology",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000004743",
+      "journal_details": "89, 2495-2502.",
+      "notes": [],
+      "citation": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., Ma, S., Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) Motor, cognitive, and functional declines contribute to a single progressive factor in early HD. Neurology, 89, 2495-2502.",
+      "citation_html": "Schobel, S. A., Palermo, G., Auinger, P., Long, J. D., <strong>Ma, S.</strong>, Khwaja, O. S., Trundell, D., Cudkowicz, M., Hersch, S., Sampaio, C., Dorsey, E. R., Leavitt, B. R., Kieburtz, K. D., Sevigny, J. J., Langbehn, D. R., Tabrizi, S. J.; TRACK-HD, COHORT, CARE-HD, and 2CARE Huntington Study Group Investigators. (2017) <a href=\"https://www.neurology.org/doi/10.1212/WNL.0000000000004743\">Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.</a> <em><strong>Neurology</strong></em>, 89, 2495-2502.",
+      "original_title": "Motor, cognitive, and functional declines contribute to a single progressive factor in early HD."
+    }
+  ],
+  "teaching": [
+    {
+      "id": "teaching-1",
+      "text": "生物统计学 (MATH3714)，上海交通大学数学科学学院（2026年秋季）",
+      "text_with_subitems": "生物统计学 (MATH3714)，上海交通大学数学科学学院（2026年秋季）",
+      "html": "<strong>生物统计学 (MATH3714)</strong>，上海交通大学数学科学学院（2026年秋季）",
+      "summary_html": "生物统计学 (MATH3714)，上海交通大学数学科学学院（2026年秋季）",
+      "source_markdown": "* **Biostatistics (MATH3714)**, School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2026)",
+      "links": [],
+      "children": [],
+      "title": "生物统计学 (MATH3714)",
+      "year": 2026,
+      "semester": "2026年秋季",
+      "role_note": null,
+      "original_text": "Biostatistics (MATH3714), School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2026)",
+      "original_title": "Biostatistics (MATH3714)"
+    },
+    {
+      "id": "teaching-2",
+      "text": "生存分析 (MATH4705)，上海交通大学数学科学学院（2025年秋季）",
+      "text_with_subitems": "生存分析 (MATH4705)，上海交通大学数学科学学院（2025年秋季）",
+      "html": "<strong>生存分析 (MATH4705)</strong>，上海交通大学数学科学学院（2025年秋季）",
+      "summary_html": "生存分析 (MATH4705)，上海交通大学数学科学学院（2025年秋季）",
+      "source_markdown": "* **Survival analysis (MATH4705)**, School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2025)",
+      "links": [],
+      "children": [],
+      "title": "生存分析 (MATH4705)",
+      "year": 2025,
+      "semester": "2025年秋季",
+      "role_note": null,
+      "original_text": "Survival analysis (MATH4705), School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2025)",
+      "original_title": "Survival analysis (MATH4705)"
+    },
+    {
+      "id": "teaching-3",
+      "text": "生物统计学 (STAT6138)，上海交通大学数学科学学院（2024年秋季）",
+      "text_with_subitems": "生物统计学 (STAT6138)，上海交通大学数学科学学院（2024年秋季）",
+      "html": "<strong>生物统计学 (STAT6138)</strong>，上海交通大学数学科学学院（2024年秋季）",
+      "summary_html": "生物统计学 (STAT6138)，上海交通大学数学科学学院（2024年秋季）",
+      "source_markdown": "* **Biostatistics (STAT6138)**, School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2024)",
+      "links": [],
+      "children": [],
+      "title": "生物统计学 (STAT6138)",
+      "year": 2024,
+      "semester": "2024年秋季",
+      "role_note": null,
+      "original_text": "Biostatistics (STAT6138), School of Mathematical Sciences, Shanghai Jiao Tong University (Fall 2024)",
+      "original_title": "Biostatistics (STAT6138)"
+    },
+    {
+      "id": "teaching-4",
+      "text": "临床研究方法学导论，上海交通大学医学院（2026年秋季，客座授课）",
+      "text_with_subitems": "临床研究方法学导论，上海交通大学医学院（2026年秋季，客座授课）",
+      "html": "<strong>临床研究方法学导论</strong>，上海交通大学医学院（2026年秋季，客座授课）",
+      "summary_html": "临床研究方法学导论，上海交通大学医学院（2026年秋季，客座授课）",
+      "source_markdown": "* **Introduction to Clinical Research Methodology**, Shanghai Jiao Tong University School of Medicine (Fall 2026, Guest lecturer)",
+      "links": [],
+      "children": [],
+      "title": "临床研究方法学导论",
+      "year": 2026,
+      "semester": "2026年秋季",
+      "role_note": "客座授课",
+      "original_text": "Introduction to Clinical Research Methodology, Shanghai Jiao Tong University School of Medicine (Fall 2026, Guest lecturer)",
+      "original_title": "Introduction to Clinical Research Methodology"
+    },
+    {
+      "id": "teaching-5",
+      "text": "临床研究方法学导论，上海交通大学医学院（2025年秋季，客座授课）",
+      "text_with_subitems": "临床研究方法学导论，上海交通大学医学院（2025年秋季，客座授课）",
+      "html": "<strong>临床研究方法学导论</strong>，上海交通大学医学院（2025年秋季，客座授课）",
+      "summary_html": "临床研究方法学导论，上海交通大学医学院（2025年秋季，客座授课）",
+      "source_markdown": "* **Introduction to Clinical Research Methodology**, Shanghai Jiao Tong University School of Medicine (Fall 2025, Guest lecturer)",
+      "links": [],
+      "children": [],
+      "title": "临床研究方法学导论",
+      "year": 2025,
+      "semester": "2025年秋季",
+      "role_note": "客座授课",
+      "original_text": "Introduction to Clinical Research Methodology, Shanghai Jiao Tong University School of Medicine (Fall 2025, Guest lecturer)",
+      "original_title": "Introduction to Clinical Research Methodology"
+    },
+    {
+      "id": "teaching-6",
+      "text": "临床研究方法学导论，上海交通大学医学院（2024年秋季，客座授课）",
+      "text_with_subitems": "临床研究方法学导论，上海交通大学医学院（2024年秋季，客座授课）",
+      "html": "<strong>临床研究方法学导论</strong>，上海交通大学医学院（2024年秋季，客座授课）",
+      "summary_html": "临床研究方法学导论，上海交通大学医学院（2024年秋季，客座授课）",
+      "source_markdown": "* **Introduction to Clinical Research Methodology**, Shanghai Jiao Tong University School of Medicine (Fall 2024, Guest lecturer)",
+      "links": [],
+      "children": [],
+      "title": "临床研究方法学导论",
+      "year": 2024,
+      "semester": "2024年秋季",
+      "role_note": "客座授课",
+      "original_text": "Introduction to Clinical Research Methodology, Shanghai Jiao Tong University School of Medicine (Fall 2024, Guest lecturer)",
+      "original_title": "Introduction to Clinical Research Methodology"
+    },
+    {
+      "id": "teaching-7",
+      "text": "医学统计学与临床研究，上海交通大学医学院（2024年春季，客座授课）",
+      "text_with_subitems": "医学统计学与临床研究，上海交通大学医学院（2024年春季，客座授课）",
+      "html": "<strong>医学统计学与临床研究</strong>，上海交通大学医学院（2024年春季，客座授课）",
+      "summary_html": "医学统计学与临床研究，上海交通大学医学院（2024年春季，客座授课）",
+      "source_markdown": "* **Medical Statistics and Clinical Research**, Shanghai Jiao Tong University School of Medicine (Spring 2024, Guest lecturer)",
+      "links": [],
+      "children": [],
+      "title": "医学统计学与临床研究",
+      "year": 2024,
+      "semester": "2024年春季",
+      "role_note": "客座授课",
+      "original_text": "Medical Statistics and Clinical Research, Shanghai Jiao Tong University School of Medicine (Spring 2024, Guest lecturer)",
+      "original_title": "Medical Statistics and Clinical Research"
+    },
+    {
+      "id": "teaching-8",
+      "text": "临床研究方法学导论，上海交通大学医学院（2023年秋季，客座授课）",
+      "text_with_subitems": "临床研究方法学导论，上海交通大学医学院（2023年秋季，客座授课）",
+      "html": "<strong>临床研究方法学导论</strong>，上海交通大学医学院（2023年秋季，客座授课）",
+      "summary_html": "临床研究方法学导论，上海交通大学医学院（2023年秋季，客座授课）",
+      "source_markdown": "* **Introduction to Clinical Research Methodology**, Shanghai Jiao Tong University School of Medicine (Fall 2023, Guest lecturer)",
+      "links": [],
+      "children": [],
+      "title": "临床研究方法学导论",
+      "year": 2023,
+      "semester": "2023年秋季",
+      "role_note": "客座授课",
+      "original_text": "Introduction to Clinical Research Methodology, Shanghai Jiao Tong University School of Medicine (Fall 2023, Guest lecturer)",
+      "original_title": "Introduction to Clinical Research Methodology"
+    }
+  ],
+  "software": [
+    {
+      "id": "software-1",
+      "text": "LAVAKnock：利用 Knockoff 开展局部遗传相关性分析的 R 软件包。",
+      "text_with_subitems": "LAVAKnock：利用 Knockoff 开展局部遗传相关性分析的 R 软件包。",
+      "html": "<strong><a href=\"https://github.com/shiyangm/LAVA-Knock\">LAVAKnock</a></strong>：利用 Knockoff 开展局部遗传相关性分析的 R 软件包。",
+      "summary_html": "LAVAKnock：利用 Knockoff 开展局部遗传相关性分析的 R 软件包。",
+      "source_markdown": "* **[LAVAKnock](https://github.com/shiyangm/LAVA-Knock)**: An R package to conduct local genetic correlation analysis via knockoffs.",
+      "links": [
+        {
+          "label": "LAVAKnock",
+          "url": "https://github.com/shiyangm/LAVA-Knock"
+        }
+      ],
+      "children": [],
+      "title": "LAVAKnock",
+      "url": "https://github.com/shiyangm/LAVA-Knock",
+      "description": "利用 Knockoff 开展局部遗传相关性分析的 R 软件包。",
+      "original_text": "LAVAKnock: An R package to conduct local genetic correlation analysis via knockoffs.",
+      "original_title": "LAVAKnock"
+    },
+    {
+      "id": "software-2",
+      "text": "BIGKnock：利用 Knockoff 开展生物样本库规模基因水平关联检验的 R 软件包。",
+      "text_with_subitems": "BIGKnock：利用 Knockoff 开展生物样本库规模基因水平关联检验的 R 软件包。",
+      "html": "<strong><a href=\"https://github.com/Iuliana-Ionita-Laza/BIGKnock\">BIGKnock</a></strong>：利用 Knockoff 开展生物样本库规模基因水平关联检验的 R 软件包。",
+      "summary_html": "BIGKnock：利用 Knockoff 开展生物样本库规模基因水平关联检验的 R 软件包。",
+      "source_markdown": "* **[BIGKnock](https://github.com/Iuliana-Ionita-Laza/BIGKnock)**: An R package of performing biobank-scale gene-based association test via knockoffs.",
+      "links": [
+        {
+          "label": "BIGKnock",
+          "url": "https://github.com/Iuliana-Ionita-Laza/BIGKnock"
+        }
+      ],
+      "children": [],
+      "title": "BIGKnock",
+      "url": "https://github.com/Iuliana-Ionita-Laza/BIGKnock",
+      "description": "利用 Knockoff 开展生物样本库规模基因水平关联检验的 R 软件包。",
+      "original_text": "BIGKnock: An R package of performing biobank-scale gene-based association test via knockoffs.",
+      "original_title": "BIGKnock"
+    },
+    {
+      "id": "software-3",
+      "text": "GeneScan3DKnock：整合长程染色质相互作用以改进基因水平检验，并提供 Knockoff 增强检验的 R 软件包。",
+      "text_with_subitems": "GeneScan3DKnock：整合长程染色质相互作用以改进基因水平检验，并提供 Knockoff 增强检验的 R 软件包。",
+      "html": "<strong><a href=\"https://github.com/Iuliana-Ionita-Laza/GeneScan3DKnock\">GeneScan3DKnock</a></strong>：整合长程染色质相互作用以改进基因水平检验，并提供 Knockoff 增强检验的 R 软件包。",
+      "summary_html": "GeneScan3DKnock：整合长程染色质相互作用以改进基因水平检验，并提供 Knockoff 增强检验的 R 软件包。",
+      "source_markdown": "* **[GeneScan3DKnock](https://github.com/Iuliana-Ionita-Laza/GeneScan3DKnock)**: An R package for performing improved gene-based testing by integrating long-range chromatin interactions, along with knockoff-enhanced tests.",
+      "links": [
+        {
+          "label": "GeneScan3DKnock",
+          "url": "https://github.com/Iuliana-Ionita-Laza/GeneScan3DKnock"
+        }
+      ],
+      "children": [],
+      "title": "GeneScan3DKnock",
+      "url": "https://github.com/Iuliana-Ionita-Laza/GeneScan3DKnock",
+      "description": "整合长程染色质相互作用以改进基因水平检验，并提供 Knockoff 增强检验的 R 软件包。",
+      "original_text": "GeneScan3DKnock: An R package for performing improved gene-based testing by integrating long-range chromatin interactions, along with knockoff-enhanced tests.",
+      "original_title": "GeneScan3DKnock"
+    },
+    {
+      "id": "software-4",
+      "text": "GeneScan3D — UK Biobank 基因水平分析结果：GeneScan3D 基因水平分析结果浏览器，涵盖 UK Biobank 的 1,403 个二分类 phecode、BioBank Japan 的 42 个二分类表型及 5 个精神疾病表型。",
+      "text_with_subitems": "GeneScan3D — UK Biobank 基因水平分析结果：GeneScan3D 基因水平分析结果浏览器，涵盖 UK Biobank 的 1,403 个二分类 phecode、BioBank Japan 的 42 个二分类表型及 5 个精神疾病表型。",
+      "html": "<strong><a href=\"http://www.funlda.com/gs3d\">GeneScan3D — UK Biobank 基因水平分析结果</a></strong>：GeneScan3D 基因水平分析结果浏览器，涵盖 UK Biobank 的 1,403 个二分类 phecode、BioBank Japan 的 42 个二分类表型及 5 个精神疾病表型。",
+      "summary_html": "GeneScan3D — UK Biobank 基因水平分析结果：GeneScan3D 基因水平分析结果浏览器，涵盖 UK Biobank 的 1,403 个二分类 phecode、BioBank Japan 的 42 个二分类表型及 5 个精神疾病表型。",
+      "source_markdown": "*  **[GeneScan3D - UK Biobank Gene-based Results](http://www.funlda.com/gs3d)**: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
+      "links": [
+        {
+          "label": "GeneScan3D - UK Biobank Gene-based Results",
+          "url": "http://www.funlda.com/gs3d"
+        }
+      ],
+      "children": [],
+      "title": "GeneScan3D — UK Biobank 基因水平分析结果",
+      "url": "http://www.funlda.com/gs3d",
+      "description": "GeneScan3D 基因水平分析结果浏览器，涵盖 UK Biobank 的 1,403 个二分类 phecode、BioBank Japan 的 42 个二分类表型及 5 个精神疾病表型。",
+      "original_text": "GeneScan3D - UK Biobank Gene-based Results: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
+      "original_title": "GeneScan3D - UK Biobank Gene-based Results"
+    }
+  ],
+  "invited_talks": [
+    {
+      "id": "invited-talks-1",
+      "text": "中山大学数学学院，中国广州（2026/10）",
+      "text_with_subitems": "中山大学数学学院，中国广州（2026/10）",
+      "html": "中山大学数学学院，中国广州（2026/10）",
+      "summary_html": "中山大学数学学院，中国广州（2026/10）",
+      "source_markdown": "* School of Mathematics, Sun Yat-sen University, Guangzhou, China (2026/10).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/10",
+      "title": "中山大学数学学院，中国广州",
+      "original_text": "School of Mathematics, Sun Yat-sen University, Guangzhou, China (2026/10).",
+      "original_title": "School of Mathematics, Sun Yat-sen University, Guangzhou, China"
+    },
+    {
+      "id": "invited-talks-2",
+      "text": "第四届统计与数据科学联合会议（JCSDS 2026），中国贵阳（2026/07）",
+      "text_with_subitems": "第四届统计与数据科学联合会议（JCSDS 2026），中国贵阳（2026/07）",
+      "html": "第四届统计与数据科学联合会议（JCSDS 2026），中国贵阳（2026/07）",
+      "summary_html": "第四届统计与数据科学联合会议（JCSDS 2026），中国贵阳（2026/07）",
+      "source_markdown": "* The 4th Joint Conference on Statistics and Data Science (JCSDS 2026), Guiyang, China (2026/07).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/07",
+      "title": "第四届统计与数据科学联合会议（JCSDS 2026），中国贵阳",
+      "original_text": "The 4th Joint Conference on Statistics and Data Science (JCSDS 2026), Guiyang, China (2026/07).",
+      "original_title": "The 4th Joint Conference on Statistics and Data Science (JCSDS 2026), Guiyang, China"
+    },
+    {
+      "id": "invited-talks-3",
+      "text": "中国现场统计研究会数据科学与人工智能分会，中国东莞（2026/07）",
+      "text_with_subitems": "中国现场统计研究会数据科学与人工智能分会，中国东莞（2026/07）",
+      "html": "中国现场统计研究会数据科学与人工智能分会，中国东莞（2026/07）",
+      "summary_html": "中国现场统计研究会数据科学与人工智能分会，中国东莞（2026/07）",
+      "source_markdown": "* Data Science and Artificial Intelligence Branch of Chinese Association for Applied Statistics, Dongguan, China (2026/07).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/07",
+      "title": "中国现场统计研究会数据科学与人工智能分会，中国东莞",
+      "original_text": "Data Science and Artificial Intelligence Branch of Chinese Association for Applied Statistics, Dongguan, China (2026/07).",
+      "original_title": "Data Science and Artificial Intelligence Branch of Chinese Association for Applied Statistics, Dongguan, China"
+    },
+    {
+      "id": "invited-talks-4",
+      "text": "深圳大学数学科学学院，中国深圳（2026/06）",
+      "text_with_subitems": "深圳大学数学科学学院，中国深圳（2026/06）",
+      "html": "深圳大学数学科学学院，中国深圳（2026/06）",
+      "summary_html": "深圳大学数学科学学院，中国深圳（2026/06）",
+      "source_markdown": "* School of Mathematical Sciences, Shenzhen University, Shenzhen, China (2026/06).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/06",
+      "title": "深圳大学数学科学学院，中国深圳",
+      "original_text": "School of Mathematical Sciences, Shenzhen University, Shenzhen, China (2026/06).",
+      "original_title": "School of Mathematical Sciences, Shenzhen University, Shenzhen, China"
+    },
+    {
+      "id": "invited-talks-5",
+      "text": "2026 年 ICSA 中国会议，中国深圳（2026/06）",
+      "text_with_subitems": "2026 年 ICSA 中国会议，中国深圳（2026/06）",
+      "html": "2026 年 ICSA 中国会议，中国深圳（2026/06）",
+      "summary_html": "2026 年 ICSA 中国会议，中国深圳（2026/06）",
+      "source_markdown": "* 2026 ICSA China Conference, Shenzhen, China (2026/06).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/06",
+      "title": "2026 年 ICSA 中国会议，中国深圳",
+      "original_text": "2026 ICSA China Conference, Shenzhen, China (2026/06).",
+      "original_title": "2026 ICSA China Conference, Shenzhen, China"
+    },
+    {
+      "id": "invited-talks-6",
+      "text": "2026 年数据科学前沿国际会议，中国杭州（2026/05）",
+      "text_with_subitems": "2026 年数据科学前沿国际会议，中国杭州（2026/05）",
+      "html": "2026 年数据科学前沿国际会议，中国杭州（2026/05）",
+      "summary_html": "2026 年数据科学前沿国际会议，中国杭州（2026/05）",
+      "source_markdown": "* 2026 International Conference on Frontiers of Data Science, Hangzhou, China (2026/05).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/05",
+      "title": "2026 年数据科学前沿国际会议，中国杭州",
+      "original_text": "2026 International Conference on Frontiers of Data Science, Hangzhou, China (2026/05).",
+      "original_title": "2026 International Conference on Frontiers of Data Science, Hangzhou, China"
+    },
+    {
+      "id": "invited-talks-7",
+      "text": "中国现场统计研究会高维数据统计分会第十届学术研讨会，中国青岛（2026/04）",
+      "text_with_subitems": "中国现场统计研究会高维数据统计分会第十届学术研讨会，中国青岛（2026/04）",
+      "html": "中国现场统计研究会高维数据统计分会第十届学术研讨会，中国青岛（2026/04）",
+      "summary_html": "中国现场统计研究会高维数据统计分会第十届学术研讨会，中国青岛（2026/04）",
+      "source_markdown": "* The 10th Academic Symposium of the High-Dimensional Data Statistics Section, Chinese Association for Applied Statistics, Qingdao, China (2026/04).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/04",
+      "title": "中国现场统计研究会高维数据统计分会第十届学术研讨会，中国青岛",
+      "original_text": "The 10th Academic Symposium of the High-Dimensional Data Statistics Section, Chinese Association for Applied Statistics, Qingdao, China (2026/04).",
+      "original_title": "The 10th Academic Symposium of the High-Dimensional Data Statistics Section, Chinese Association for Applied Statistics, Qingdao, China"
+    },
+    {
+      "id": "invited-talks-8",
+      "text": "北京大学生物统计学系，中国北京（2026/04）",
+      "text_with_subitems": "北京大学生物统计学系，中国北京（2026/04）",
+      "html": "北京大学生物统计学系，中国北京（2026/04）",
+      "summary_html": "北京大学生物统计学系，中国北京（2026/04）",
+      "source_markdown": "* Department of Biostatistics, Peking University, Beijing, China (2026/04).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/04",
+      "title": "北京大学生物统计学系，中国北京",
+      "original_text": "Department of Biostatistics, Peking University, Beijing, China (2026/04).",
+      "original_title": "Department of Biostatistics, Peking University, Beijing, China"
+    },
+    {
+      "id": "invited-talks-9",
+      "text": "统计学“101计划”核心课程教材建设第二次研讨会，中国桂林（2026/03）",
+      "text_with_subitems": "统计学“101计划”核心课程教材建设第二次研讨会，中国桂林（2026/03）",
+      "html": "统计学“101计划”核心课程教材建设第二次研讨会，中国桂林（2026/03）",
+      "summary_html": "统计学“101计划”核心课程教材建设第二次研讨会，中国桂林（2026/03）",
+      "source_markdown": "* The 2nd Workshop on Core Course Textbook Development for the Statistics “101 Plan”, Guilin, China (2026/03).",
+      "links": [],
+      "children": [],
+      "year": 2026,
+      "date": "2026/03",
+      "title": "统计学“101计划”核心课程教材建设第二次研讨会，中国桂林",
+      "original_text": "The 2nd Workshop on Core Course Textbook Development for the Statistics “101 Plan”, Guilin, China (2026/03).",
+      "original_title": "The 2nd Workshop on Core Course Textbook Development for the Statistics “101 Plan”, Guilin, China"
+    },
+    {
+      "id": "invited-talks-10",
+      "text": "上海市生物信息学会，复旦大学，中国上海（2025/11）",
+      "text_with_subitems": "上海市生物信息学会，复旦大学，中国上海（2025/11）",
+      "html": "上海市生物信息学会，复旦大学，中国上海（2025/11）",
+      "summary_html": "上海市生物信息学会，复旦大学，中国上海（2025/11）",
+      "source_markdown": "* Shanghai Society for Bioinformatics, Fudan University, Shanghai, China (2025/11).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/11",
+      "title": "上海市生物信息学会，复旦大学，中国上海",
+      "original_text": "Shanghai Society for Bioinformatics, Fudan University, Shanghai, China (2025/11).",
+      "original_title": "Shanghai Society for Bioinformatics, Fudan University, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-11",
+      "text": "第三届因果推断会议，新疆大学，中国乌鲁木齐（2025/07）",
+      "text_with_subitems": "第三届因果推断会议，新疆大学，中国乌鲁木齐（2025/07）",
+      "html": "第三届因果推断会议，新疆大学，中国乌鲁木齐（2025/07）",
+      "summary_html": "第三届因果推断会议，新疆大学，中国乌鲁木齐（2025/07）",
+      "source_markdown": "* The 3rd Conference on Causal Inference, Xinjiang University, Urumqi, China (2025/07).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/07",
+      "title": "第三届因果推断会议，新疆大学，中国乌鲁木齐",
+      "original_text": "The 3rd Conference on Causal Inference, Xinjiang University, Urumqi, China (2025/07).",
+      "original_title": "The 3rd Conference on Causal Inference, Xinjiang University, Urumqi, China"
+    },
+    {
+      "id": "invited-talks-12",
+      "text": "第三届中国统计与数据科学联合会议（JCSDS 2025），中国杭州（2025/07）",
+      "text_with_subitems": "第三届中国统计与数据科学联合会议（JCSDS 2025），中国杭州（2025/07）",
+      "html": "第三届中国统计与数据科学联合会议（JCSDS 2025），中国杭州（2025/07）",
+      "summary_html": "第三届中国统计与数据科学联合会议（JCSDS 2025），中国杭州（2025/07）",
+      "source_markdown": "* The 3rd Joint Conference on Statistics and Data Science in China (JCSDS 2025), Hangzhou, China (2025/07).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/07",
+      "title": "第三届中国统计与数据科学联合会议（JCSDS 2025），中国杭州",
+      "original_text": "The 3rd Joint Conference on Statistics and Data Science in China (JCSDS 2025), Hangzhou, China (2025/07).",
+      "original_title": "The 3rd Joint Conference on Statistics and Data Science in China (JCSDS 2025), Hangzhou, China"
+    },
+    {
+      "id": "invited-talks-13",
+      "text": "2025 年 ICSA 中国会议，中国珠海（2025/06）",
+      "text_with_subitems": "2025 年 ICSA 中国会议，中国珠海（2025/06）",
+      "html": "2025 年 ICSA 中国会议，中国珠海（2025/06）",
+      "summary_html": "2025 年 ICSA 中国会议，中国珠海（2025/06）",
+      "source_markdown": "* 2025 ICSA China Conference, Zhuhai, China (2025/06).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/06",
+      "title": "2025 年 ICSA 中国会议，中国珠海",
+      "original_text": "2025 ICSA China Conference, Zhuhai, China (2025/06).",
+      "original_title": "2025 ICSA China Conference, Zhuhai, China"
+    },
+    {
+      "id": "invited-talks-14",
+      "text": "AI for Science，复旦大学，中国上海（2025/06）",
+      "text_with_subitems": "AI for Science，复旦大学，中国上海（2025/06）",
+      "html": "AI for Science，复旦大学，中国上海（2025/06）",
+      "summary_html": "AI for Science，复旦大学，中国上海（2025/06）",
+      "source_markdown": "* AI for Science, Fudan University, Shanghai, China (2025/06).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/06",
+      "title": "AI for Science，复旦大学，中国上海",
+      "original_text": "AI for Science, Fudan University, Shanghai, China (2025/06).",
+      "original_title": "AI for Science, Fudan University, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-15",
+      "text": "中国医学科学院阜外医院，中国北京（2025/04）",
+      "text_with_subitems": "中国医学科学院阜外医院，中国北京（2025/04）",
+      "html": "中国医学科学院阜外医院，中国北京（2025/04）",
+      "summary_html": "中国医学科学院阜外医院，中国北京（2025/04）",
+      "source_markdown": "* Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China (2025/04).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/04",
+      "title": "中国医学科学院阜外医院，中国北京",
+      "original_text": "Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China (2025/04).",
+      "original_title": "Fuwai Hospital, Chinese Academy of Medical Sciences, Beijing, China"
+    },
+    {
+      "id": "invited-talks-16",
+      "text": "西北大学数学学院，中国西安（2025/04）",
+      "text_with_subitems": "西北大学数学学院，中国西安（2025/04）",
+      "html": "西北大学数学学院，中国西安（2025/04）",
+      "summary_html": "西北大学数学学院，中国西安（2025/04）",
+      "source_markdown": "* School of Mathematics, Northwest University, Xi'an, China (2025/04).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/04",
+      "title": "西北大学数学学院，中国西安",
+      "original_text": "School of Mathematics, Northwest University, Xi'an, China (2025/04).",
+      "original_title": "School of Mathematics, Northwest University, Xi'an, China"
+    },
+    {
+      "id": "invited-talks-17",
+      "text": "Open Mendel 会议，加州大学洛杉矶分校，美国（2025/01）",
+      "text_with_subitems": "Open Mendel 会议，加州大学洛杉矶分校，美国（2025/01）",
+      "html": "Open Mendel 会议，加州大学洛杉矶分校，美国（2025/01）",
+      "summary_html": "Open Mendel 会议，加州大学洛杉矶分校，美国（2025/01）",
+      "source_markdown": "* Open Mendel Meeting, University of California Los Angeles, USA (2025/01).",
+      "links": [],
+      "children": [],
+      "year": 2025,
+      "date": "2025/01",
+      "title": "Open Mendel 会议，加州大学洛杉矶分校，美国",
+      "original_text": "Open Mendel Meeting, University of California Los Angeles, USA (2025/01).",
+      "original_title": "Open Mendel Meeting, University of California Los Angeles, USA"
+    },
+    {
+      "id": "invited-talks-18",
+      "text": "西南财经大学统计研究中心，中国成都（2024/12）",
+      "text_with_subitems": "西南财经大学统计研究中心，中国成都（2024/12）",
+      "html": "西南财经大学统计研究中心，中国成都（2024/12）",
+      "summary_html": "西南财经大学统计研究中心，中国成都（2024/12）",
+      "source_markdown": "* Center of Statistical Research, Southwestern University of Finance and Economics, Chengdu, China (2024/12).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/12",
+      "title": "西南财经大学统计研究中心，中国成都",
+      "original_text": "Center of Statistical Research, Southwestern University of Finance and Economics, Chengdu, China (2024/12).",
+      "original_title": "Center of Statistical Research, Southwestern University of Finance and Economics, Chengdu, China"
+    },
+    {
+      "id": "invited-talks-19",
+      "text": "浙江大学数据科学中心，中国杭州（2024/12）",
+      "text_with_subitems": "浙江大学数据科学中心，中国杭州（2024/12）",
+      "html": "浙江大学数据科学中心，中国杭州（2024/12）",
+      "summary_html": "浙江大学数据科学中心，中国杭州（2024/12）",
+      "source_markdown": "* Center for Data Science, Zhejiang University, Hangzhou, China (2024/12).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/12",
+      "title": "浙江大学数据科学中心，中国杭州",
+      "original_text": "Center for Data Science, Zhejiang University, Hangzhou, China (2024/12).",
+      "original_title": "Center for Data Science, Zhejiang University, Hangzhou, China"
+    },
+    {
+      "id": "invited-talks-20",
+      "text": "上海财经大学统计与管理学院，中国上海（2024/12）",
+      "text_with_subitems": "上海财经大学统计与管理学院，中国上海（2024/12）",
+      "html": "上海财经大学统计与管理学院，中国上海（2024/12）",
+      "summary_html": "上海财经大学统计与管理学院，中国上海（2024/12）",
+      "source_markdown": "* The School of Statistics and Management, Shanghai University of Finance and Economics, Shanghai, China (2024/12).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/12",
+      "title": "上海财经大学统计与管理学院，中国上海",
+      "original_text": "The School of Statistics and Management, Shanghai University of Finance and Economics, Shanghai, China (2024/12).",
+      "original_title": "The School of Statistics and Management, Shanghai University of Finance and Economics, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-21",
+      "text": "第二十二届中国国际人才交流大会“数学与生命健康”，中国上海（2024/11）",
+      "text_with_subitems": "第二十二届中国国际人才交流大会“数学与生命健康”，中国上海（2024/11）",
+      "html": "第二十二届中国国际人才交流大会“数学与生命健康”，中国上海（2024/11）",
+      "summary_html": "第二十二届中国国际人才交流大会“数学与生命健康”，中国上海（2024/11）",
+      "source_markdown": "* The 22nd Conference on International Exchange of Professionals, Mathematics and Life Health, Shanghai, China (2024/11).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/11",
+      "title": "第二十二届中国国际人才交流大会“数学与生命健康”，中国上海",
+      "original_text": "The 22nd Conference on International Exchange of Professionals, Mathematics and Life Health, Shanghai, China (2024/11).",
+      "original_title": "The 22nd Conference on International Exchange of Professionals, Mathematics and Life Health, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-22",
+      "text": "云南财经大学统计与数学学院，中国昆明（2024/10）",
+      "text_with_subitems": "云南财经大学统计与数学学院，中国昆明（2024/10）",
+      "html": "云南财经大学统计与数学学院，中国昆明（2024/10）",
+      "summary_html": "云南财经大学统计与数学学院，中国昆明（2024/10）",
+      "source_markdown": "* School of Statistics and Mathematics, Yunnan University of Finance and Economics, Kunming, China (2024/10).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/10",
+      "title": "云南财经大学统计与数学学院，中国昆明",
+      "original_text": "School of Statistics and Mathematics, Yunnan University of Finance and Economics, Kunming, China (2024/10).",
+      "original_title": "School of Statistics and Mathematics, Yunnan University of Finance and Economics, Kunming, China"
+    },
+    {
+      "id": "invited-talks-23",
+      "text": "同济大学数学科学学院，中国上海（2024/10）",
+      "text_with_subitems": "同济大学数学科学学院，中国上海（2024/10）",
+      "html": "同济大学数学科学学院，中国上海（2024/10）",
+      "summary_html": "同济大学数学科学学院，中国上海（2024/10）",
+      "source_markdown": "* School of Mathematical Sciences, Tongji University, Shanghai, China (2024/10).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/10",
+      "title": "同济大学数学科学学院，中国上海",
+      "original_text": "School of Mathematical Sciences, Tongji University, Shanghai, China (2024/10).",
+      "original_title": "School of Mathematical Sciences, Tongji University, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-24",
+      "text": "中国人民大学统计与大数据研究院，中国北京（2024/10）",
+      "text_with_subitems": "中国人民大学统计与大数据研究院，中国北京（2024/10）",
+      "html": "中国人民大学统计与大数据研究院，中国北京（2024/10）",
+      "summary_html": "中国人民大学统计与大数据研究院，中国北京（2024/10）",
+      "source_markdown": "* Institute of Statistics and Big Data, Renmin University of China, Beijing, China (2024/10).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/10",
+      "title": "中国人民大学统计与大数据研究院，中国北京",
+      "original_text": "Institute of Statistics and Big Data, Renmin University of China, Beijing, China (2024/10).",
+      "original_title": "Institute of Statistics and Big Data, Renmin University of China, Beijing, China"
+    },
+    {
+      "id": "invited-talks-25",
+      "text": "第七届计量经济学与统计学国际会议（EcoSta 2024），中国北京（2024/07）",
+      "text_with_subitems": "第七届计量经济学与统计学国际会议（EcoSta 2024），中国北京（2024/07）",
+      "html": "第七届计量经济学与统计学国际会议（EcoSta 2024），中国北京（2024/07）",
+      "summary_html": "第七届计量经济学与统计学国际会议（EcoSta 2024），中国北京（2024/07）",
+      "source_markdown": "* The 7th International Conference on Econometrics and Statistics (EcoSta 2024), Beijing, China (2024/07).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/07",
+      "title": "第七届计量经济学与统计学国际会议（EcoSta 2024），中国北京",
+      "original_text": "The 7th International Conference on Econometrics and Statistics (EcoSta 2024), Beijing, China (2024/07).",
+      "original_title": "The 7th International Conference on Econometrics and Statistics (EcoSta 2024), Beijing, China"
+    },
+    {
+      "id": "invited-talks-26",
+      "text": "第二届中国统计与数据科学联合会议（JCSDS 2024），中国昆明（2024/07）",
+      "text_with_subitems": "第二届中国统计与数据科学联合会议（JCSDS 2024），中国昆明（2024/07）",
+      "html": "第二届中国统计与数据科学联合会议（JCSDS 2024），中国昆明（2024/07）",
+      "summary_html": "第二届中国统计与数据科学联合会议（JCSDS 2024），中国昆明（2024/07）",
+      "source_markdown": "* The 2nd Joint Conference on Statistics and Data Science in China (JCSDS 2024), Kunming, China (2024/07).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/07",
+      "title": "第二届中国统计与数据科学联合会议（JCSDS 2024），中国昆明",
+      "original_text": "The 2nd Joint Conference on Statistics and Data Science in China (JCSDS 2024), Kunming, China (2024/07).",
+      "original_title": "The 2nd Joint Conference on Statistics and Data Science in China (JCSDS 2024), Kunming, China"
+    },
+    {
+      "id": "invited-talks-27",
+      "text": "东北师范大学数学与统计学院，中国长春（2024/06）",
+      "text_with_subitems": "东北师范大学数学与统计学院，中国长春（2024/06）",
+      "html": "东北师范大学数学与统计学院，中国长春（2024/06）",
+      "summary_html": "东北师范大学数学与统计学院，中国长春（2024/06）",
+      "source_markdown": "* School of Mathematics and Statistics, Northeast Normal University, Changchun, China (2024/06).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/06",
+      "title": "东北师范大学数学与统计学院，中国长春",
+      "original_text": "School of Mathematics and Statistics, Northeast Normal University, Changchun, China (2024/06).",
+      "original_title": "School of Mathematics and Statistics, Northeast Normal University, Changchun, China"
+    },
+    {
+      "id": "invited-talks-28",
+      "text": "中国人民大学统计与大数据研究院，中国北京（2024/05）",
+      "text_with_subitems": "中国人民大学统计与大数据研究院，中国北京（2024/05）",
+      "html": "中国人民大学统计与大数据研究院，中国北京（2024/05）",
+      "summary_html": "中国人民大学统计与大数据研究院，中国北京（2024/05）",
+      "source_markdown": "* Institute of Statistics and Big Data, Renmin University of China, Beijing, China (2024/05).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/05",
+      "title": "中国人民大学统计与大数据研究院，中国北京",
+      "original_text": "Institute of Statistics and Big Data, Renmin University of China, Beijing, China (2024/05).",
+      "original_title": "Institute of Statistics and Big Data, Renmin University of China, Beijing, China"
+    },
+    {
+      "id": "invited-talks-29",
+      "text": "第十二届生物信息学与计算生物学国际会议（ICBCB 2024），日本东京（2024/03）",
+      "text_with_subitems": "第十二届生物信息学与计算生物学国际会议（ICBCB 2024），日本东京（2024/03）",
+      "html": "第十二届生物信息学与计算生物学国际会议（ICBCB 2024），日本东京（2024/03）",
+      "summary_html": "第十二届生物信息学与计算生物学国际会议（ICBCB 2024），日本东京（2024/03）",
+      "source_markdown": "* 12th International Conference on Bioinformatics and Computational Biology (ICBCB 2024), Tokyo, Japan (2024/03).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/03",
+      "title": "第十二届生物信息学与计算生物学国际会议（ICBCB 2024），日本东京",
+      "original_text": "12th International Conference on Bioinformatics and Computational Biology (ICBCB 2024), Tokyo, Japan (2024/03).",
+      "original_title": "12th International Conference on Bioinformatics and Computational Biology (ICBCB 2024), Tokyo, Japan"
+    },
+    {
+      "id": "invited-talks-30",
+      "text": "天元数学研究中心，中国昆明（2024/01）",
+      "text_with_subitems": "天元数学研究中心，中国昆明（2024/01）",
+      "html": "天元数学研究中心，中国昆明（2024/01）",
+      "summary_html": "天元数学研究中心，中国昆明（2024/01）",
+      "source_markdown": "* Tianyuan Mathematics Research Center, Kunming, China (2024/01).",
+      "links": [],
+      "children": [],
+      "year": 2024,
+      "date": "2024/01",
+      "title": "天元数学研究中心，中国昆明",
+      "original_text": "Tianyuan Mathematics Research Center, Kunming, China (2024/01).",
+      "original_title": "Tianyuan Mathematics Research Center, Kunming, China"
+    },
+    {
+      "id": "invited-talks-31",
+      "text": "第十六届 ERCIM 计算与方法统计工作组国际会议，德国柏林（2023/12）",
+      "text_with_subitems": "第十六届 ERCIM 计算与方法统计工作组国际会议，德国柏林（2023/12）",
+      "html": "第十六届 ERCIM 计算与方法统计工作组国际会议，德国柏林（2023/12）",
+      "summary_html": "第十六届 ERCIM 计算与方法统计工作组国际会议，德国柏林（2023/12）",
+      "source_markdown": "* 16th International Conference of the ERCIM WG on Computational and Methodological Statistics, Berlin, Germany (2023/12).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/12",
+      "title": "第十六届 ERCIM 计算与方法统计工作组国际会议，德国柏林",
+      "original_text": "16th International Conference of the ERCIM WG on Computational and Methodological Statistics, Berlin, Germany (2023/12).",
+      "original_title": "16th International Conference of the ERCIM WG on Computational and Methodological Statistics, Berlin, Germany"
+    },
+    {
+      "id": "invited-talks-32",
+      "text": "中国科学院数学与系统科学研究院应用数学研究所，中国北京（2023/11）",
+      "text_with_subitems": "中国科学院数学与系统科学研究院应用数学研究所，中国北京（2023/11）",
+      "html": "中国科学院数学与系统科学研究院应用数学研究所，中国北京（2023/11）",
+      "summary_html": "中国科学院数学与系统科学研究院应用数学研究所，中国北京（2023/11）",
+      "source_markdown": "* Institute of Applied Mathematics, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2023/11).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/11",
+      "title": "中国科学院数学与系统科学研究院应用数学研究所，中国北京",
+      "original_text": "Institute of Applied Mathematics, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China (2023/11).",
+      "original_title": "Institute of Applied Mathematics, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "id": "invited-talks-33",
+      "text": "北京大学生物统计学系，中国北京（2023/11）",
+      "text_with_subitems": "北京大学生物统计学系，中国北京（2023/11）",
+      "html": "北京大学生物统计学系，中国北京（2023/11）",
+      "summary_html": "北京大学生物统计学系，中国北京（2023/11）",
+      "source_markdown": "* Department of Biostatistics, Peking University, Beijing, China (2023/11).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/11",
+      "title": "北京大学生物统计学系，中国北京",
+      "original_text": "Department of Biostatistics, Peking University, Beijing, China (2023/11).",
+      "original_title": "Department of Biostatistics, Peking University, Beijing, China"
+    },
+    {
+      "id": "invited-talks-34",
+      "text": "中国科学院上海营养与健康研究所，中国上海（2023/10）",
+      "text_with_subitems": "中国科学院上海营养与健康研究所，中国上海（2023/10）",
+      "html": "中国科学院上海营养与健康研究所，中国上海（2023/10）",
+      "summary_html": "中国科学院上海营养与健康研究所，中国上海（2023/10）",
+      "source_markdown": "* Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Shanghai, China. (2023/10).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/10",
+      "title": "中国科学院上海营养与健康研究所，中国上海",
+      "original_text": "Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Shanghai, China. (2023/10).",
+      "original_title": "Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, Shanghai, China."
+    },
+    {
+      "id": "invited-talks-35",
+      "text": "2023 中国统计与数据科学联合会议，中国北京（2023/07）",
+      "text_with_subitems": "2023 中国统计与数据科学联合会议，中国北京（2023/07）",
+      "html": "2023 中国统计与数据科学联合会议，中国北京（2023/07）",
+      "summary_html": "2023 中国统计与数据科学联合会议，中国北京（2023/07）",
+      "source_markdown": "* Joint Conference on Statistics and Data Science in China 2023, Beijing, China (2023/07).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/07",
+      "title": "2023 中国统计与数据科学联合会议，中国北京",
+      "original_text": "Joint Conference on Statistics and Data Science in China 2023, Beijing, China (2023/07).",
+      "original_title": "Joint Conference on Statistics and Data Science in China 2023, Beijing, China"
+    },
+    {
+      "id": "invited-talks-36",
+      "text": "第二届统计理论及相关领域国际研讨会，中国天津（2023/07）",
+      "text_with_subitems": "第二届统计理论及相关领域国际研讨会，中国天津（2023/07）",
+      "html": "第二届统计理论及相关领域国际研讨会，中国天津（2023/07）",
+      "summary_html": "第二届统计理论及相关领域国际研讨会，中国天津（2023/07）",
+      "source_markdown": "* The Second International Workshop on Statistical Theory and Related Fields, Tianjin, China (2023/07).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/07",
+      "title": "第二届统计理论及相关领域国际研讨会，中国天津",
+      "original_text": "The Second International Workshop on Statistical Theory and Related Fields, Tianjin, China (2023/07).",
+      "original_title": "The Second International Workshop on Statistical Theory and Related Fields, Tianjin, China"
+    },
+    {
+      "id": "invited-talks-37",
+      "text": "ICSA 2023 中国会议，中国成都（2023/06）",
+      "text_with_subitems": "ICSA 2023 中国会议，中国成都（2023/06）",
+      "html": "ICSA 2023 中国会议，中国成都（2023/06）",
+      "summary_html": "ICSA 2023 中国会议，中国成都（2023/06）",
+      "source_markdown": "* ICSA 2023 China Conference, Chengdu, China (2023/06).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/06",
+      "title": "ICSA 2023 中国会议，中国成都",
+      "original_text": "ICSA 2023 China Conference, Chengdu, China (2023/06).",
+      "original_title": "ICSA 2023 China Conference, Chengdu, China"
+    },
+    {
+      "id": "invited-talks-38",
+      "text": "清华大学统计学研究中心，中国北京（2023/05）",
+      "text_with_subitems": "清华大学统计学研究中心，中国北京（2023/05）",
+      "html": "清华大学统计学研究中心，中国北京（2023/05）",
+      "summary_html": "清华大学统计学研究中心，中国北京（2023/05）",
+      "source_markdown": "* Center for Statistical Science, Tsinghua University, Beijing, China (2023/05).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/05",
+      "title": "清华大学统计学研究中心，中国北京",
+      "original_text": "Center for Statistical Science, Tsinghua University, Beijing, China (2023/05).",
+      "original_title": "Center for Statistical Science, Tsinghua University, Beijing, China"
+    },
+    {
+      "id": "invited-talks-39",
+      "text": "上海交通大学数学科学学院，中国上海（2023/03）",
+      "text_with_subitems": "上海交通大学数学科学学院，中国上海（2023/03）",
+      "html": "上海交通大学数学科学学院，中国上海（2023/03）",
+      "summary_html": "上海交通大学数学科学学院，中国上海（2023/03）",
+      "source_markdown": "* School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China (2023/03).",
+      "links": [],
+      "children": [],
+      "year": 2023,
+      "date": "2023/03",
+      "title": "上海交通大学数学科学学院，中国上海",
+      "original_text": "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China (2023/03).",
+      "original_title": "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China"
+    },
+    {
+      "id": "invited-talks-40",
+      "text": "香港城市大学生物统计学系，中国（2022/11）",
+      "text_with_subitems": "香港城市大学生物统计学系，中国（2022/11）",
+      "html": "香港城市大学生物统计学系，中国（2022/11）",
+      "summary_html": "香港城市大学生物统计学系，中国（2022/11）",
+      "source_markdown": "* Department of Biostatistics, City University of Hong Kong, China (2022/11).",
+      "links": [],
+      "children": [],
+      "year": 2022,
+      "date": "2022/11",
+      "title": "香港城市大学生物统计学系，中国",
+      "original_text": "Department of Biostatistics, City University of Hong Kong, China (2022/11).",
+      "original_title": "Department of Biostatistics, City University of Hong Kong, China"
+    },
+    {
+      "id": "invited-talks-41",
+      "text": "上海交通大学生物信息学与生物统计学系，中国（2022/06）",
+      "text_with_subitems": "上海交通大学生物信息学与生物统计学系，中国（2022/06）",
+      "html": "上海交通大学生物信息学与生物统计学系，中国（2022/06）",
+      "summary_html": "上海交通大学生物信息学与生物统计学系，中国（2022/06）",
+      "source_markdown": "* Department of Bioinformatics and Biostatistics, Shanghai Jiao Tong University, China (2022/06).",
+      "links": [],
+      "children": [],
+      "year": 2022,
+      "date": "2022/06",
+      "title": "上海交通大学生物信息学与生物统计学系，中国",
+      "original_text": "Department of Bioinformatics and Biostatistics, Shanghai Jiao Tong University, China (2022/06).",
+      "original_title": "Department of Bioinformatics and Biostatistics, Shanghai Jiao Tong University, China"
+    },
+    {
+      "id": "invited-talks-42",
+      "text": "第三十四届新英格兰统计学研讨会，线上线下混合会议，美国（2021/10）",
+      "text_with_subitems": "第三十四届新英格兰统计学研讨会，线上线下混合会议，美国（2021/10）",
+      "html": "第三十四届新英格兰统计学研讨会，线上线下混合会议，美国（2021/10）",
+      "summary_html": "第三十四届新英格兰统计学研讨会，线上线下混合会议，美国（2021/10）",
+      "source_markdown": "* The 34th New England Statistics Symposium, Hybrid conference, USA  (2021/10).",
+      "links": [],
+      "children": [],
+      "year": 2021,
+      "date": "2021/10",
+      "title": "第三十四届新英格兰统计学研讨会，线上线下混合会议，美国",
+      "original_text": "The 34th New England Statistics Symposium, Hybrid conference, USA (2021/10).",
+      "original_title": "The 34th New England Statistics Symposium, Hybrid conference, USA"
+    }
+  ],
+  "students": [
+    {
+      "id": "students-1",
+      "text": "Jiaxun Guo，Ph.D. 学生（2027 级）",
+      "text_with_subitems": "Jiaxun Guo，Ph.D. 学生（2027 级）",
+      "html": "Jiaxun Guo，Ph.D. 学生（2027 级）",
+      "summary_html": "Jiaxun Guo，Ph.D. 学生（2027 级）",
+      "source_markdown": "* Jiaxun Guo, Ph.D. student (Grade 2027)",
+      "links": [],
+      "children": [],
+      "name": "Jiaxun Guo",
+      "grade_as_source": 2027,
+      "original_text": "Jiaxun Guo, Ph.D. student (Grade 2027)"
+    },
+    {
+      "id": "students-2",
+      "text": "Changle Liu，Ph.D. 学生，与 Tao Wang 教授联合指导（2026 级）",
+      "text_with_subitems": "Changle Liu，Ph.D. 学生，与 Tao Wang 教授联合指导（2026 级）",
+      "html": "Changle Liu，Ph.D. 学生，与 Tao Wang 教授联合指导（2026 级）",
+      "summary_html": "Changle Liu，Ph.D. 学生，与 Tao Wang 教授联合指导（2026 级）",
+      "source_markdown": "* Changle Liu, Ph.D. student, Joint supervised with Prof. Tao Wang (Grade 2026)",
+      "links": [],
+      "children": [],
+      "name": "Changle Liu",
+      "grade_as_source": 2026,
+      "original_text": "Changle Liu, Ph.D. student, Joint supervised with Prof. Tao Wang (Grade 2026)"
+    },
+    {
+      "id": "students-3",
+      "text": "Bonan Ding，M.D. 学生，与 Jingyuan Fang 教授联合指导（2025 级）",
+      "text_with_subitems": "Bonan Ding，M.D. 学生，与 Jingyuan Fang 教授联合指导（2025 级）",
+      "html": "Bonan Ding，M.D. 学生，与 Jingyuan Fang 教授联合指导（2025 级）",
+      "summary_html": "Bonan Ding，M.D. 学生，与 Jingyuan Fang 教授联合指导（2025 级）",
+      "source_markdown": "* Bonan Ding, M.D. student, Joint supervised with Prof. Jingyuan Fang (Grade 2025)",
+      "links": [],
+      "children": [],
+      "name": "Bonan Ding",
+      "grade_as_source": 2025,
+      "original_text": "Bonan Ding, M.D. student, Joint supervised with Prof. Jingyuan Fang (Grade 2025)"
+    }
+  ],
+  "journal_review": {
+    "source_label": "JOURNAL REVIEW",
+    "source_markdown": "_Journal of the American Statistical Association_; _Annals of Applied Statistics_; _Briefings in Bioinformatics_; _Statistics in Medicine_; _Clinical Trials: Journal of the Society for Clinical Trials_; _Statistics in Biopharmaceutical Research_; _BMC Medical Research Methodology_; _Statistics in Biosciences_; _Journal of Applied Statistics_; _Epidemiology and Infection_; _Journal of Digestive Diseases_; _Statistical Theory and Related Fields_; _Biostatistics and Epidemiology_; _F1000Research_",
+    "text": "Journal of the American Statistical Association; Annals of Applied Statistics; Briefings in Bioinformatics; Statistics in Medicine; Clinical Trials: Journal of the Society for Clinical Trials; Statistics in Biopharmaceutical Research; BMC Medical Research Methodology; Statistics in Biosciences; Journal of Applied Statistics; Epidemiology and Infection; Journal of Digestive Diseases; Statistical Theory and Related Fields; Biostatistics and Epidemiology; F1000Research",
+    "html": "<em>Journal of the American Statistical Association</em>; <em>Annals of Applied Statistics</em>; <em>Briefings in Bioinformatics</em>; <em>Statistics in Medicine</em>; <em>Clinical Trials: Journal of the Society for Clinical Trials</em>; <em>Statistics in Biopharmaceutical Research</em>; <em>BMC Medical Research Methodology</em>; <em>Statistics in Biosciences</em>; <em>Journal of Applied Statistics</em>; <em>Epidemiology and Infection</em>; <em>Journal of Digestive Diseases</em>; <em>Statistical Theory and Related Fields</em>; <em>Biostatistics and Epidemiology</em>; <em>F1000Research</em>",
+    "journals": [
+      "Journal of the American Statistical Association",
+      "Annals of Applied Statistics",
+      "Briefings in Bioinformatics",
+      "Statistics in Medicine",
+      "Clinical Trials: Journal of the Society for Clinical Trials",
+      "Statistics in Biopharmaceutical Research",
+      "BMC Medical Research Methodology",
+      "Statistics in Biosciences",
+      "Journal of Applied Statistics",
+      "Epidemiology and Infection",
+      "Journal of Digestive Diseases",
+      "Statistical Theory and Related Fields",
+      "Biostatistics and Epidemiology",
+      "F1000Research"
+    ],
+    "links": []
+  },
+  "contact": {
+    "source_label": "CONTACT",
+    "source_markdown": "Room 709, East 2nd building,\n227 South Chongqing Road,\nShanghai, 200025, China  \n**Email**: mashiyang1991@sjtu.edu.cn\n\nI am looking for highly motivated collaborators and Ph.D. students. Please email me if you are interested.",
+    "text": "中国上海市重庆南路227号，东二楼709室，邮编200025。邮箱：mashiyang1991@sjtu.edu.cn\n欢迎有志于相关研究的合作者和博士研究生与我联系。如有兴趣，请发送邮件。",
+    "html": "<p>中国上海市重庆南路 227 号<br>东二楼 709 室<br>邮编 200025<br>邮箱：mashiyang1991@sjtu.edu.cn</p><p>欢迎有志于相关研究的合作者和博士研究生与我联系。如有兴趣，请发送邮件。</p>",
+    "paragraphs": [
+      {
+        "text": "Room 709, East 2nd building, 227 South Chongqing Road, Shanghai, 200025, China Email: mashiyang1991@sjtu.edu.cn",
+        "html": "Room 709, East 2nd building,\n227 South Chongqing Road,\nShanghai, 200025, China<br />\n<strong>Email</strong>: mashiyang1991@sjtu.edu.cn",
+        "links": []
+      },
+      {
+        "text": "I am looking for highly motivated collaborators and Ph.D. students. Please email me if you are interested.",
+        "html": "I am looking for highly motivated collaborators and Ph.D. students. Please email me if you are interested.",
+        "links": []
+      }
+    ],
+    "address_lines": [
+      "中国上海市重庆南路 227 号",
+      "东二楼 709 室",
+      "邮编 200025"
+    ],
+    "email": "mashiyang1991@sjtu.edu.cn",
+    "email_url": "mailto:mashiyang1991@sjtu.edu.cn",
+    "email_url_basis": "mailto convenience link derived from the exact source email; the source CONTACT text has no hyperlink.",
+    "invitation": "欢迎有志于相关研究的合作者和博士研究生与我联系。如有兴趣，请发送邮件。",
+    "links": [],
+    "social_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/shiyangm"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/shiyang-ma"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-4423-5798"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=a23UFoYAAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  "original_homepage_links": [
+    {
+      "label": "Shiyang Ma",
+      "url": "https://shiyangm.github.io/",
+      "in_navigation": true,
+      "in_footer": false
+    },
+    {
+      "label": "",
+      "url": "https://shiyangm.github.io/",
+      "in_navigation": true,
+      "in_footer": false
+    },
+    {
+      "label": "Prof. Iuliana Ionita-Laza",
+      "url": "http://www.columbia.edu/~ii2135/",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Prof. Michael P. McDermott",
+      "url": "https://www.urmc.rochester.edu/biostat/people/faculty/mcdermott.aspx",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Prof. David Oakes",
+      "url": "https://www.urmc.rochester.edu/biostat/people/faculty/oakes.aspx",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Methods for Improving Efficiency in Clinical Trials",
+      "url": "https://search.proquest.com/docview/2335218128?pq-origsite=gscholar&fromopenview=true",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Cox-MK: a model-X knockoff method for genome-wide survival association analysis",
+      "url": "https://doi.org/10.1093/genetics/iyag123",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "SpaNiche: spatial niche analysis to explore colocalization patterns and cellular interactions in spatial transcriptomics data",
+      "url": "https://doi.org/10.1186/s13059-026-04069-z",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Introduction to secure data sharing in primary care using the federated causal learning models",
+      "url": "https://informatics.bmj.com/content/33/1/e101543",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "SurvSTAAR: A powerful statistical framework for rare variant analysis of time-to-event traits in large-scale whole-genome sequencing studies",
+      "url": "https://doi.org/10.1080/01621459.2025.2606388",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Local genetic correlation via knockoffs reduces confounding due to cross-trait assortative mating",
+      "url": "https://doi.org/10.1016/j.ajhg.2024.10.012",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "High-dimensional mediation analysis for longitudinal data",
+      "url": "https://doi.org/10.1093/bib/bbae496",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "The association between air pollutant exposure and cerebral small vessel disease with modifying effects of PRS-defined genetic susceptibility",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0147651324007140",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "HEARTSVG: a fast and accurate method for spatially variable gene identification in large-scale spatial transcriptomic data",
+      "url": "https://doi.org/10.1038/s41467-024-49846-1",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "The optimal pre-post allocation for randomized clinical trials",
+      "url": "https://doi.org/10.1186/s12874-023-01893-w",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "BIGKnock: fine-mapping gene-based associations via knockoff analysis of biobank-scale data",
+      "url": "https://doi.org/10.1186/s13059-023-02864-6",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "GhostKnockoff inference empowers identification of putative causal variants in genome-wide association studies",
+      "url": "https://doi.org/10.1038/s41467-022-34932-z",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Powerful gene-based testing by integrating long-range chromatin interactions and knockoff genotypes.",
+      "url": "https://doi.org/10.1073/pnas.2105191118",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Genome-wide analysis of common and rare variants via multiple knockoffs at biobank scale, with an application to Alzheimer disease genetics.",
+      "url": "https://doi.org/10.1016/j.ajhg.2021.10.009",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "“If the glove fits”: Hospital-wide universal gloving is associated with improved hand hygiene and may reduce Clostridioides difficile infection.",
+      "url": "https://doi.org/10.1017/ice.2020.1422",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Generalized multiple contrast tests in dose-response studies.",
+      "url": "https://doi.org/10.1002/sim.8444",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "Motor, cognitive, and functional declines contribute to a single progressive factor in early HD.",
+      "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000004743",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "LAVAKnock",
+      "url": "https://github.com/shiyangm/LAVA-Knock",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "BIGKnock",
+      "url": "https://github.com/Iuliana-Ionita-Laza/BIGKnock",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "GeneScan3DKnock",
+      "url": "https://github.com/Iuliana-Ionita-Laza/GeneScan3DKnock",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "GeneScan3D - UK Biobank Gene-based Results",
+      "url": "http://www.funlda.com/gs3d",
+      "in_navigation": false,
+      "in_footer": false
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/shiyangm",
+      "in_navigation": false,
+      "in_footer": true
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/shiyang-ma",
+      "in_navigation": false,
+      "in_footer": true
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-4423-5798",
+      "in_navigation": false,
+      "in_footer": true
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=a23UFoYAAAAJ&hl=en&oi=ao",
+      "in_navigation": false,
+      "in_footer": true
+    },
+    {
+      "label": "Beautiful Jekyll",
+      "url": "https://beautifuljekyll.com",
+      "in_navigation": false,
+      "in_footer": true
+    }
+  ],
+  "original_theme_attribution": {
+    "label": "Beautiful Jekyll",
+    "url": "https://beautifuljekyll.com"
+  },
+  "section_order": [
+    "experience",
+    "education",
+    "research_interests",
+    "publications",
+    "teaching",
+    "software",
+    "journal_review",
+    "invited_talks",
+    "students",
+    "contact"
+  ],
+  "provenance": {
+    "repository": "shiyangm/shiyangm.github.io",
+    "branch": "master",
+    "source_commit": "9db10961567718e0b3f14a0bcccbeac067ab236d",
+    "source_index_sha256": "e46089339195360421122106f267fca379c3b363f6884172f131ae2f8acb28a4",
+    "source_inventory_sha256": "f0085bd6ace53a50bfb0bcf92bb6745ee2df164c1dd4e0691527c0c26b58a0d6",
+    "interpretation": {
+      "identity": "The public page identifies Shiyang Ma; ownership and its intended relationship to Ma Lab are not independently confirmed.",
+      "news": "No explicit NEWS section or active news navigation appears on the homepage. Feed content must be separately classified before use.",
+      "members": "PHD STUDENTS is a source label. It is not asserted to be the complete Ma Lab team.",
+      "unverified": "Academic statements, dates, student status and publication details are captured as source claims, not independently verified."
+    },
+    "content_status": "Source statements from the handed-off snapshot; no independent biographical or publication verification and no new online requests.",
+    "excluded_theme_sample_posts": [
+      "Sample blog post",
+      "Flake it till you make it"
+    ],
+    "excluded_theme_assets": [
+      "assets/img/path.jpg",
+      "assets/img/thumb.png"
+    ],
+    "normalization": "Render source Markdown to HTML; retain raw item Markdown. Only comparison normalization ignores whitespace, NFC and curly apostrophe differences."
+  },
+  "translation": {
+    "language": "zh-CN",
+    "basis": "Faithful editorial translation of the handed-off English snapshot. Not an independent fact check.",
+    "names": "Shiyang Ma and other personal names retained in Latin script; no unverified Chinese personal name introduced.",
+    "bibliography": "20 translated display titles; exact English citations, authors, journals, URLs and years retained.",
+    "original_claims_preserved": true
+  }
+}

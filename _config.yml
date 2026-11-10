@@ -1,0 +1,8 @@
+title: Shiyang Ma
+description: Statistical genetics and biostatistics
+author: Shiyang Ma
+url: "https://tienan.github.io"
+baseurl: "/ma-lab"
+exclude:
+  - _source
+  - README.md
