@@ -1,0 +1,9 @@
+<section class="section section-white" id="publications" aria-labelledby="publications-title">
+  <div class="shell"><div class="section-heading"><h1 id="publications-title">${publications_heading}</h1><p>${publications_intro}</p></div>
+    <div class="publication-toolbar"><label class="search-label" for="publication-search">${search_label}<input id="publication-search" type="search" placeholder="${search_placeholder}" autocomplete="off"></label><label class="year-label" for="publication-year">${year_label}<select id="publication-year"><option value="all">${all_years}</option>${year_options}</select></label><span class="result-count" role="status" aria-live="polite">${initial_count}</span></div>
+    <ol class="publications-list">${publications}</ol>
+    <p class="empty-state" hidden>${empty_state}</p>
+    <button class="button secondary" type="button" id="show-all" hidden>${show_all} <span aria-hidden="true">↓</span></button>
+    <noscript><p>${noscript}</p></noscript>
+  </div>
+</section>

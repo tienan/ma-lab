@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${description}">
-  <meta name="theme-color" content="#152b3c">
+  <meta name="theme-color" content="#153c49">
   <title>${page_title}</title>
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="en" href="${alternate_en}">
@@ -15,65 +15,27 @@
   <script id="site-i18n" type="application/json">${i18n_json}</script>
   <script src="${assets_prefix}site.js" defer></script>
 </head>
-<body>
+<body id="home" data-page="${page}">
 <a class="skip-link" href="#main">${skip}</a>
+<div class="masthead">
+  <div class="shell masthead-inner">
+    <a class="brand" href="${home_href}" aria-label="${home_label}"><span class="brand-mark" aria-hidden="true">SM</span><span><span class="brand-name">${name}</span><span class="brand-caption">${university}</span></span></a>
+    <div class="language-switch" role="group" aria-label="${language_label}"><a class="language-link" lang="en" hreflang="en" href="${en_href}"${en_current}>English</a><span aria-hidden="true">/</span><a class="language-link" lang="zh-CN" hreflang="zh-CN" href="${zh_href}"${zh_current}>中文</a></div>
+  </div>
+</div>
+${banner}
 <header class="site-header">
   <div class="shell header-inner">
-    <a class="brand" href="#home" aria-label="${home_label}"><span class="brand-mark" aria-hidden="true">SM<span>·</span></span><span><span class="brand-name">${name}</span><span class="brand-caption">${brand_caption}</span></span></a>
     <nav id="site-nav" aria-label="${navigation_label}">
-      <a class="nav-link" href="#research">${nav_research}</a><a class="nav-link" href="#publications">${nav_publications}</a><a class="nav-link" href="#software">${nav_software}</a><a class="nav-link" href="#teaching">${nav_teaching}</a><a class="nav-link" href="#about">${nav_about}</a><a class="nav-link nav-contact" href="#contact">${nav_contact} <span aria-hidden="true">↗</span></a>
+      ${nav_links}
     </nav>
     <div class="header-controls">
-      <div class="language-switch" role="group" aria-label="${language_label}"><a class="language-link" lang="en" hreflang="en" href="${en_href}" data-file-href="${en_file_href}"${en_current}>EN</a><span aria-hidden="true">/</span><a class="language-link" lang="zh-CN" hreflang="zh-CN" href="${zh_href}" data-file-href="${zh_file_href}"${zh_current}>中文</a></div>
       <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="${menu_open}"><span class="menu-label">${menu}</span><span class="menu-icon" aria-hidden="true">☰</span></button>
     </div>
   </div>
 </header>
-<main id="main">
-<section class="hero" id="home" aria-labelledby="hero-title">
-  <div class="shell hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow status-line">${university}</p>
-      <h1 class="hero-title" id="hero-title">${name}<span aria-hidden="true">.</span></h1>
-      <p class="hero-subtitle">${hero_subtitle}</p>
-      <p class="hero-description">${hero_description}</p>
-      <div class="hero-actions"><a class="button" href="#research">${explore_research} <span aria-hidden="true">↗</span></a><a class="button secondary" href="#publications">${selected_publications} <span aria-hidden="true">↓</span></a></div>
-      <div class="social-links" aria-label="${profiles_label}">${social_links}</div>
-    </div>
-    <div class="portrait-panel">
-      <div class="portrait-frame"><img class="portrait" src="${assets_prefix}portrait.jpeg" width="3363" height="3377" alt="${portrait_alt}" fetchpriority="high"><svg class="portrait-orbit" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="94" fill="none" stroke="currentColor" stroke-width="0.7"/><circle cx="100" cy="100" r="77" fill="none" stroke="currentColor" stroke-width="0.5"/><path d="M0 100h200M100 0v200" stroke="currentColor" stroke-width="0.5"/><circle cx="170" cy="37" r="5" fill="currentColor"/></svg></div>
-      <div class="portrait-caption"><span class="portrait-name">${portrait_role}</span><span class="portrait-role">${university}</span></div>
-    </div>
-  </div>
-  <div class="hero-bottom"><div class="shell discipline-strip"><span>${discipline_methods} <span aria-hidden="true">↗</span></span><span>${discipline_genomics} <span aria-hidden="true">↗</span></span><span>${discipline_clinical} <span aria-hidden="true">↗</span></span></div></div>
-</section>
-<section class="section" id="research" aria-labelledby="research-title">
-  <div class="shell"><div class="section-heading"><p class="section-kicker">${research_kicker}</p><h2 id="research-title">${research_heading}</h2><p>${research_intro}</p></div><div class="research-grid">${research}</div></div>
-</section>
-<section class="section section-white" id="publications" aria-labelledby="publications-title">
-  <div class="shell"><div class="section-heading"><p class="section-kicker">${publications_kicker}</p><h2 id="publications-title">${publications_heading}</h2><p>${publications_intro}</p></div>
-    <div class="publication-toolbar"><label class="search-label" for="publication-search">${search_label}<input id="publication-search" type="search" placeholder="${search_placeholder}" autocomplete="off"></label><label class="year-label" for="publication-year">${year_label}<select id="publication-year"><option value="all">${all_years}</option>${year_options}</select></label><span class="result-count" role="status" aria-live="polite">${initial_count}</span></div>
-    <ol class="publications-list">${publications}</ol>
-    <p class="empty-state" hidden>${empty_state}</p>
-    <button class="button secondary" type="button" id="show-all" hidden>${show_all} <span aria-hidden="true">↓</span></button>
-    <noscript><p>${noscript}</p></noscript>
-  </div>
-</section>
-<section class="section" id="software" aria-labelledby="software-title">
-  <div class="shell"><div class="section-heading"><p class="section-kicker">${software_kicker}</p><h2 id="software-title">${software_heading}</h2><p>${software_intro}</p></div><div class="software-grid">${software}</div></div>
-</section>
-<section class="section section-white" id="teaching" aria-labelledby="teaching-title">
-  <div class="shell"><div class="section-heading"><p class="section-kicker">${teaching_kicker}</p><h2 id="teaching-title">${teaching_heading}</h2><p>${teaching_intro}</p></div><div class="teaching-list">${teaching}</div></div>
-</section>
-<section class="section" id="about" aria-labelledby="about-title">
-  <div class="shell"><div class="section-heading"><p class="section-kicker">${about_kicker}</p><h2 id="about-title">${about_heading}</h2></div>
-    <div class="about-grid"><div><h3>${experience_heading}</h3><div class="timeline">${experience}</div></div><div><h3>${education_heading}</h3><div class="timeline">${education}</div></div></div>
-    <div class="students-block"><h3>${students_heading}</h3><div class="students-list">${students}</div></div>
-    <details class="talks-disclosure"><summary>${talks_heading} <span class="talk-count">${talk_count}</span><span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="talks-list">${talks}</div></details>
-    <details class="talks-disclosure service-disclosure"><summary>${journal_review_heading} <span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="service-note">${journal_review}</div></details>
-  </div>
-</section>
-<section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell contact-grid"><div><p class="eyebrow">${contact_kicker}</p><h2 id="contact-title">${contact_heading}</h2><div class="contact-copy">${contact_intro}</div></div><div><a class="contact-email" href="mailto:${email}">${email} <span aria-hidden="true">↗</span></a><div class="contact-address">${address}</div><div class="contact-links">${social_links}</div></div></div></section>
+<main id="main" tabindex="-1">
+${page_content}
 </main>
 <footer class="site-footer"><div class="shell footer-inner"><span>${name} <span aria-hidden="true">/</span> ${university}</span><a href="#home">${back_to_top} <span aria-hidden="true">↑</span></a></div></footer>
 </body>

@@ -13,6 +13,6 @@
 python _source/build.py .
 ```
 
-生成器同时写入 `index.html` 和 `zh/index.html`。在GitHub Pages中从 `main` 分支的根目录发布。
+生成器同时写入中英文各七页。研究方向、精选论文、科研软件、教学、学术经历和联系各有独立路径，语言切换进入同一栏目的另一语言版本。GitHub Pages 从 `main` 分支的根目录发布。
 
 内容基于 Shiyang Ma 原学术主页及固定源码快照 `9db10961567718e0b3f14a0bcccbeac067ab236d`；保留原站人员、年级和论文表述。两篇2020年主题演示文章未收录。托管账户为tienan，网站人物署名保持Shiyang Ma。

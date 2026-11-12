@@ -1,54 +1,58 @@
 (() => {
   'use strict';
-  const labels = JSON.parse(document.getElementById('site-i18n').textContent);
-  const interpolate = (text, values) => text.replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ''));
-
-  // Directory links work on project Pages; explicit index files also support file:.
-  const languageLinks = [...document.querySelectorAll('.language-link')];
-  languageLinks.forEach(link => { link.dataset.webHref = link.getAttribute('href'); });
-  const updateLanguageLinks = () => languageLinks.forEach(link => {
-    const target = location.protocol === 'file:' ? link.dataset.fileHref : link.dataset.webHref;
-    const url = new URL(target, document.baseURI);
-    url.hash = location.hash;
-    link.href = url.href;
-  });
-  updateLanguageLinks();
-  window.addEventListener('hashchange', updateLanguageLinks);
-  languageLinks.forEach(link => link.addEventListener('click', updateLanguageLinks));
-
   const nav = document.getElementById('site-nav');
+  if (nav && document.body.dataset.page === 'home') {
+    const sectionLinks = [...nav.querySelectorAll('[data-page-link]:not([data-page-link="home"])')];
+    const redirectLegacyBookmark = () => {
+      const bookmark = location.hash.slice(1);
+      const target = sectionLinks.find(link => link.dataset.pageLink === bookmark);
+      if (!target) return false;
+      location.replace(target.href);
+      return true;
+    };
+    if (redirectLegacyBookmark()) return;
+    window.addEventListener('hashchange', redirectLegacyBookmark);
+  }
+
+  const labels = JSON.parse(document.getElementById('site-i18n').textContent);
   const menu = document.querySelector('.menu-toggle');
-  const menuLabel = menu.querySelector('.menu-label');
-  const menuIcon = menu.querySelector('.menu-icon');
-  const setMenu = open => {
-    nav.classList.toggle('open', open);
-    menu.setAttribute('aria-expanded', String(open));
-    menu.setAttribute('aria-label', open ? labels.menu_close_label : labels.menu_open_label);
-    menuLabel.textContent = open ? labels.menu_open : labels.menu_closed;
-    menuIcon.textContent = open ? '×' : '☰';
-  };
-  const closeMenu = () => setMenu(false);
-  menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') !== 'true'));
-  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
-  document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && nav.classList.contains('open')) {
-      closeMenu();
-      menu.focus();
-    }
-  });
-  document.addEventListener('click', event => {
-    if (!nav.contains(event.target) && !menu.contains(event.target)) closeMenu();
-  });
-  window.matchMedia('(min-width: 921px)').addEventListener('change', event => {
-    if (event.matches) closeMenu();
-  });
+  const menuLabel = menu?.querySelector('.menu-label');
+  const menuIcon = menu?.querySelector('.menu-icon');
+  if (nav && menu && menuLabel && menuIcon) {
+    const setMenu = open => {
+      nav.classList.toggle('open', open);
+      menu.setAttribute('aria-expanded', String(open));
+      menu.setAttribute('aria-label', open ? labels.menu_close_label : labels.menu_open_label);
+      menuLabel.textContent = open ? labels.menu_open : labels.menu_closed;
+      menuIcon.textContent = open ? '×' : '☰';
+    };
+    const closeMenu = () => setMenu(false);
+    menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') !== 'true'));
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && nav.classList.contains('open')) {
+        closeMenu();
+        menu.focus();
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!nav.contains(event.target) && !menu.contains(event.target)) closeMenu();
+    });
+    window.matchMedia('(min-width: 921px)').addEventListener('change', event => {
+      if (event.matches) closeMenu();
+    });
+    document.body.dataset.navReady = 'true';
+  }
 
   const search = document.getElementById('publication-search');
   const year = document.getElementById('publication-year');
-  const rows = [...document.querySelectorAll('.publication')];
   const count = document.querySelector('.result-count');
   const empty = document.querySelector('.empty-state');
   const showAll = document.getElementById('show-all');
+  if (!search || !year || !count || !empty || !showAll) return;
+
+  const rows = [...document.querySelectorAll('.publication')];
+  const interpolate = (text, values) => text.replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ''));
   let expanded = false;
   const render = () => {
     const query = search.value.trim().toLocaleLowerCase();
@@ -80,20 +84,4 @@
     rows[6]?.querySelector('a')?.focus({preventScroll: true});
   });
   render();
-
-  if ('IntersectionObserver' in window) {
-    const links = [...nav.querySelectorAll('a')];
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        links.forEach(link => {
-          const active = link.hash === `#${entry.target.id}`;
-          link.classList.toggle('active', active);
-          if (active) link.setAttribute('aria-current', 'location');
-          else link.removeAttribute('aria-current');
-        });
-      });
-    }, {rootMargin: '-15% 0px -65% 0px'});
-    document.querySelectorAll('main > section[id]').forEach(section => observer.observe(section));
-  }
 })();
