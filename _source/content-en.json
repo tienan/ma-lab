@@ -1444,6 +1444,10 @@
       "links": [],
       "children": [],
       "name": "Changle Liu",
+      "advisor_homepage": {
+        "mention": "Prof. Tao Wang",
+        "url": "https://life.sjtu.edu.cn/teacher/en/wangtao"
+      },
       "grade_as_source": 2026
     },
     {

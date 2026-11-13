@@ -352,22 +352,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 
 .research-figure {
+  margin: 0;
   min-width: 0;
   overflow: hidden;
   border: 1px solid var(--line);
-  background: var(--paper-deep);
+  background: var(--white);
 }
 
-.research-art {
-  display: grid;
-  min-width: 0;
-  min-height: clamp(155px, 20vw, 230px);
-  place-items: center;
-  padding: clamp(14px, 2.6vw, 31px);
-  color: var(--ink);
-}
-
-.research-art > svg { width: 100%; height: auto; }
+.research-figure img { width: 100%; height: auto; }
 
 .research-copy { min-width: 0; align-self: center; }
 
@@ -504,6 +496,7 @@ html:lang(zh) .teaching-title { font-family: var(--sans); font-size: 18px; line-
 .student-item h4 { margin: 0 0 4px; font-size: 14px; font-weight: 600; }
 .student-item strong { display: block; font-weight: 600; }
 .student-item p { color: var(--muted); font-size: 12px; }
+.student-item a { color: var(--accent-dark); text-underline-offset: 3px; }
 .students-list + h3, .about-grid + h3 { margin-top: 45px; }
 .talks-disclosure { margin-top: 43px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
 .talks-disclosure summary { position: relative; padding: 24px 45px 24px 0; cursor: pointer; list-style: none; font-family: var(--serif); font-size: 25px; line-height: 1.35; letter-spacing: -.025em; }
@@ -639,7 +632,6 @@ html:lang(zh) .teaching-title { font-family: var(--sans); font-size: 18px; line-
   .research-item { grid-template-columns: minmax(0, 1fr); gap: 18px; padding-block: 20px 24px; }
   .research-copy h3 { font-size: 23px; }
   .research-copy > p { font-size: 14px; }
-  .research-art { min-height: 135px; padding: 17px; }
 
   .publication-toolbar { flex-wrap: wrap; gap: 10px; padding-bottom: 15px; }
   .search-label { flex-basis: 100%; max-width: none; }

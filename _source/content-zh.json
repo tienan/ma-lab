@@ -1592,6 +1592,11 @@
       "links": [],
       "children": [],
       "name": "Changle Liu",
+      "advisor_homepage": {
+        "mention": "Tao Wang 教授",
+        "label": "王涛教授",
+        "url": "https://life.sjtu.edu.cn/teacher/wangtao"
+      },
       "grade_as_source": 2026,
       "original_text": "Changle Liu, Ph.D. student, Joint supervised with Prof. Tao Wang (Grade 2026)"
     },

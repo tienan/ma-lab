@@ -29,6 +29,8 @@ LOCALES = {
         'profiles_label': 'Academic profiles', 'portrait_alt': 'Portrait from Shiyang Ma’s academic homepage',
         'portrait_role': 'Associate Professor',
         'research_intro': 'The work spans methods for genetic and genomic data, variable selection and clinical research.',
+        'genetics_figure_alt': 'Manhattan plot of simulated associations across 22 chromosomes. The dashed line marks P = 5 × 10⁻⁸.',
+        'biostatistics_figure_alt': 'Kaplan–Meier survival curves with 95% confidence bands for two simulated groups.',
         'publications_heading': 'Selected publications',
         'publications_intro': 'Selected work in statistical genetics, biostatistics and clinical research.',
         'search_label': 'Search publications', 'search_placeholder': 'Search title, author, journal…',
@@ -64,6 +66,8 @@ LOCALES = {
         'profiles_label': '学术与专业主页', 'portrait_alt': '来自 Shiyang Ma 原学术主页的肖像',
         'portrait_role': '副教授',
         'research_intro': '研究涵盖遗传与基因组数据分析、变量选择，以及临床研究中的统计方法。',
+        'genetics_figure_alt': '模拟全基因组关联分析的曼哈顿图，横轴为 22 条常染色体，虚线标示 P = 5 × 10⁻⁸。',
+        'biostatistics_figure_alt': '两个模拟组的 Kaplan–Meier 生存曲线，含 95% 置信带。',
         'publications_heading': '精选论文',
         'publications_intro': '统计遗传学、生物统计学与临床研究领域的精选工作。',
         'search_label': '检索论文', 'search_placeholder': '搜索中英文题名、作者或期刊…',
@@ -88,8 +92,8 @@ LOCALES = {
     }
 }
 RESEARCH_LAYOUT = {
-    'research-interests-1': (0, 'software', 'nav_software'),
-    'research-interests-2': (1, 'publications', 'nav_publications'),
+    'research-interests-1': ('statistical-genetics', 'genetics_figure_alt', 'software'),
+    'research-interests-2': ('biostatistics', 'biostatistics_figure_alt', 'publications'),
 }
 
 
@@ -113,16 +117,6 @@ def canonical_url(path):
     return CANONICAL if directory == '.' else f'{CANONICAL}{directory}/'
 
 
-def art(kind):
-    if kind == 0:
-        paths = ''.join(f'<path d="M{x} 48 Q{x+35} {20 if i % 2 else 76} {x+70} 48"/>' for i, x in enumerate(range(0, 280, 35)))
-        nodes = ''.join(f'<circle cx="{x}" cy="{48 + ((i % 3)-1)*15}" r="{3 if i % 2 else 4}"/>' for i, x in enumerate(range(12, 310, 25)))
-        drawing = f'<g fill="none" stroke="currentColor" stroke-width="1">{paths}<path d="M0 48h320" stroke-dasharray="2 7"/></g><g fill="currentColor">{nodes}</g>'
-    else:
-        drawing = '<g fill="none" stroke="currentColor" stroke-width="1"><path d="M4 70h310M20 84V8" opacity=".35"/><path d="M20 65C70 65 80 20 135 26S220 55 300 10" stroke-width="2"/><path d="M20 76C70 76 80 31 135 37S220 66 300 21M20 54C70 54 80 9 135 15S220 44 300 0" opacity=".3"/></g>'
-    return '<div class="research-art"><svg viewBox="0 0 320 90" aria-hidden="true">' + drawing + '</svg></div>'
-
-
 def prepare_content(data, english, language):
     labels = LOCALES[language]
     chinese = language == 'zh'
@@ -138,14 +132,17 @@ def prepare_content(data, english, language):
     research = []
     research_page = page_path(language, 'research')
     for topic in data['research_interests']:
-        illustration, section, link_label = RESEARCH_LAYOUT[topic['id']]
+        figure, alt_label, section = RESEARCH_LAYOUT[topic['id']]
+        image = relative_href(research_page, PurePosixPath('assets') / f'{figure}-{language}.png')
         href = relative_href(research_page, page_path(language, section))
         research.append(f'''<article class="research-item">
-          <div class="research-figure">{art(illustration)}</div>
+          <figure class="research-figure">
+            <img src="{image}" width="900" height="480" alt="{e(labels[alt_label])}">
+          </figure>
           <div class="research-copy">
             <h3>{e(topic['title'])}</h3>
             <p>{e(topic['description'])}</p>
-            <a class="text-link" href="{href}">{e(labels[link_label])} <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="{href}">{e(labels[f'nav_{section}'])} <span aria-hidden="true">→</span></a>
           </div>
         </article>''')
     original_publications = {x['id']: x for x in english['publications']}
@@ -180,7 +177,14 @@ def prepare_content(data, english, language):
     for item in data['students']:
         name = original_students[item['id']]['name']
         text = item['text'].removeprefix(name).lstrip(',， \u3000')
-        students.append(f'<div class="student-item"><h4>{e(name)}</h4><p>{e(text)}</p></div>')
+        description = e(text)
+        if profile := item.get('advisor_homepage'):
+            before, mention, after = text.partition(profile['mention'])
+            if not mention:
+                raise ValueError(f'Advisor name missing from {item["id"]} in {language}.')
+            link = f'<a href="{e(profile["url"])}">{e(profile.get("label", mention))}</a>'
+            description = e(before) + link + e(after)
+        students.append(f'<div class="student-item"><h4>{e(name)}</h4><p>{description}</p></div>')
     talks = ''.join(f'<div class="talk-row"><span>{e(x["date"])}</span><p>{e(x["title"])}</p></div>' for x in data['invited_talks'])
     total = len(publications)
     substitutions.update({
@@ -249,7 +253,8 @@ def main():
     DEST.mkdir(parents=True, exist_ok=True)
     assets = DEST / 'assets'
     assets.mkdir(exist_ok=True)
-    asset_names = ('site.css', 'site.js', 'portrait.jpeg', 'favicon.svg', 'lab-banner.jpg')
+    figures = tuple(f'{figure}-{language}.png' for figure, _, _ in RESEARCH_LAYOUT.values() for language in LOCALES)
+    asset_names = ('site.css', 'site.js', 'portrait.jpeg', 'favicon.svg', 'lab-banner.jpg', *figures)
     for name in asset_names:
         shutil.copyfile(ROOT / name, assets / name)
     for path, html in pages:
