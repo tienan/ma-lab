@@ -346,7 +346,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 .research-copy { min-width: 0; align-self: center; }
 
-.research-copy h3 {
+.research-copy h2 {
   color: var(--ink);
   font-size: clamp(23px, 2.6vw, 30px);
   font-weight: 600;
@@ -362,12 +362,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   line-height: 1.8;
 }
 
-.research-copy .text-link {
-  margin-top: 14px;
-  color: var(--accent-dark);
-  font-size: 13px;
-}
-
 html:lang(zh) {
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
   --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
@@ -378,7 +372,7 @@ html:lang(zh) .brand-caption { letter-spacing: .09em; }
 html:lang(zh) .hero-subtitle { line-height: 1.55; }
 html:lang(zh) .hero-description, html:lang(zh) .research-copy > p { line-height: 1.95; }
 html:lang(zh) .section-heading :is(h1, h2), html:lang(zh) .contact-section h1 { line-height: 1.4; letter-spacing: 0; }
-html:lang(zh) .research-copy h3 { line-height: 1.45; letter-spacing: 0; }
+html:lang(zh) .research-copy h2 { line-height: 1.45; letter-spacing: 0; }
 html:lang(zh) .publication-title { font-family: var(--sans); font-size: 20px; font-weight: 550; line-height: 1.6; letter-spacing: 0; }
 html:lang(zh) .software-item h3 { line-height: 1.5; }
 html:lang(zh) .software-item > p, html:lang(zh) .timeline-content { line-height: 1.95; }
@@ -633,7 +627,7 @@ html:lang(zh) .teaching-title { font-family: var(--sans); font-size: 18px; line-
   .section-heading { margin-bottom: 23px; }
   .section-heading :is(h1, h2) { font-size: 34px; }
   .research-item { grid-template-columns: minmax(0, 1fr); gap: 18px; padding-block: 20px 24px; }
-  .research-copy h3 { font-size: 23px; }
+  .research-copy h2 { font-size: 23px; }
   .research-copy > p { font-size: 14px; }
 
   .publication-toolbar { flex-wrap: wrap; gap: 10px; padding-bottom: 15px; }

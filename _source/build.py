@@ -96,8 +96,8 @@ LOCALES = {
     }
 }
 RESEARCH_LAYOUT = {
-    'research-interests-1': ('statistical-genetics', 'genetics_figure_alt', 'software'),
-    'research-interests-2': ('biostatistics', 'biostatistics_figure_alt', 'publications'),
+    'research-interests-1': ('statistical-genetics', 'genetics_figure_alt'),
+    'research-interests-2': ('biostatistics', 'biostatistics_figure_alt'),
 }
 PEOPLE = (
     ('portrait.jpeg', '马诗洋', 'Shiyang Ma', 'pi_role'),
@@ -141,17 +141,15 @@ def prepare_content(data, english, language):
     research = []
     research_page = page_path(language, 'research')
     for topic in data['research_interests']:
-        figure, alt_label, section = RESEARCH_LAYOUT[topic['id']]
+        figure, alt_label = RESEARCH_LAYOUT[topic['id']]
         image = relative_href(research_page, PurePosixPath('assets') / f'{figure}-{language}.png')
-        href = relative_href(research_page, page_path(language, section))
         research.append(f'''<article class="research-item">
           <figure class="research-figure">
             <img src="{image}" width="900" height="480" alt="{e(labels[alt_label])}">
           </figure>
           <div class="research-copy">
-            <h3>{e(topic['title'])}</h3>
+            <h2>{e(topic['title'])}</h2>
             <p>{e(topic['description'])}</p>
-            <a class="text-link" href="{href}">{e(labels[f'nav_{section}'])} <span aria-hidden="true">→</span></a>
           </div>
         </article>''')
     original_publications = {x['id']: x for x in english['publications']}
@@ -284,7 +282,7 @@ def main():
     DEST.mkdir(parents=True, exist_ok=True)
     assets = DEST / 'assets'
     assets.mkdir(exist_ok=True)
-    figures = tuple(f'{figure}-{language}.png' for figure, _, _ in RESEARCH_LAYOUT.values() for language in LOCALES)
+    figures = tuple(f'{figure}-{language}.png' for figure, _ in RESEARCH_LAYOUT.values() for language in LOCALES)
     people_assets = (image for image, *_ in PEOPLE)
     asset_names = ('site.css', 'site.js', 'favicon.svg', 'lab-banner.jpg', *people_assets, *figures)
     for name in asset_names:
