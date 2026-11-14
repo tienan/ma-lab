@@ -856,21 +856,21 @@
     },
     {
       "id": "software-4",
-      "text": "GeneScan3D - UK Biobank Gene-based Results: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
-      "text_with_subitems": "GeneScan3D - UK Biobank Gene-based Results: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
-      "html": "<strong><a href=\"http://www.funlda.com/gs3d\">GeneScan3D - UK Biobank Gene-based Results</a></strong>: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
-      "summary_html": "<strong><a href=\"http://www.funlda.com/gs3d\">GeneScan3D - UK Biobank Gene-based Results</a></strong>: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
+      "text": "GeneScan3D - UK Biobank Gene-based Results: Downloadable gene-based analysis results for 2,230 UK Biobank phenotypes, including 1,403 binary phenotypes and 827 continuous phenotypes.",
+      "text_with_subitems": "GeneScan3D - UK Biobank Gene-based Results: Downloadable gene-based analysis results for 2,230 UK Biobank phenotypes, including 1,403 binary phenotypes and 827 continuous phenotypes.",
+      "html": "<strong><a href=\"https://zenodo.org/records/4477703\">GeneScan3D - UK Biobank Gene-based Results</a></strong>: Downloadable gene-based analysis results for 2,230 UK Biobank phenotypes, including 1,403 binary phenotypes and 827 continuous phenotypes.",
+      "summary_html": "<strong><a href=\"https://zenodo.org/records/4477703\">GeneScan3D - UK Biobank Gene-based Results</a></strong>: Downloadable gene-based analysis results for 2,230 UK Biobank phenotypes, including 1,403 binary phenotypes and 827 continuous phenotypes.",
       "source_markdown": "*  **[GeneScan3D - UK Biobank Gene-based Results](http://www.funlda.com/gs3d)**: Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes.",
       "links": [
         {
           "label": "GeneScan3D - UK Biobank Gene-based Results",
-          "url": "http://www.funlda.com/gs3d"
+          "url": "https://zenodo.org/records/4477703"
         }
       ],
       "children": [],
       "title": "GeneScan3D - UK Biobank Gene-based Results",
-      "url": "http://www.funlda.com/gs3d",
-      "description": "Browser of the GeneScan3D gene-based results for 1,403 UK biobank binary phecodes, 42 BioBank Japan binary phenotypes and 5 psychiatric phenotypes."
+      "url": "https://zenodo.org/records/4477703",
+      "description": "Downloadable gene-based analysis results for 2,230 UK Biobank phenotypes, including 1,403 binary phenotypes and 827 continuous phenotypes."
     }
   ],
   "invited_talks": [

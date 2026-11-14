@@ -13,7 +13,7 @@ import sys
 ROOT = Path(__file__).resolve().parent
 DEST = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / 'site'
 CANONICAL = 'https://tienan.github.io/ma-lab/'
-PAGES = ('home', 'research', 'publications', 'software', 'teaching', 'about', 'contact')
+PAGES = ('home', 'research', 'people', 'publications', 'software', 'teaching', 'about', 'contact')
 LOCALES = {
     'en': {
         'lang': 'en', 'page_title': 'Shiyang Ma | Statistical Genetics & Biostatistics',
@@ -21,6 +21,7 @@ LOCALES = {
         'skip': 'Skip to content', 'home_label': 'Shiyang Ma home', 'nav_home': 'Home',
         'language_label': 'Language', 'navigation_label': 'Main navigation', 'menu': 'Menu', 'menu_open': 'Open menu',
         'nav_research': 'Research', 'nav_publications': 'Publications', 'nav_software': 'Software',
+        'nav_people': 'People', 'people_intro': 'Ma Lab leadership, staff and students.',
         'nav_teaching': 'Teaching', 'nav_about': 'About', 'nav_contact': 'Contact',
         'university': 'Shanghai Jiao Tong University',
         'hero_subtitle': 'Statistical genetics and biostatistics',
@@ -38,12 +39,13 @@ LOCALES = {
         'empty_state': 'No publications match your search. Try another title, author or year.',
         'full_citation': 'Full citation',
         'noscript': 'All publications are shown. Enable JavaScript to search and filter this list.',
-        'software_intro': 'R packages and a browser for genetic association research.',
-        'package_type': 'R PACKAGE', 'browser_type': 'RESULTS BROWSER',
-        'view_repository': 'View repository', 'explore_results': 'Explore results',
+        'software_intro': 'R packages and research datasets for genetic association studies.',
+        'view_repository': 'View repository', 'view_dataset': 'View dataset on Zenodo',
         'teaching_intro': 'Courses and guest lectures at Shanghai Jiao Tong University.',
         'about_heading': 'Academic profile',
         'experience_heading': 'Experience', 'education_heading': 'Education', 'students_heading': 'Students',
+        'pi_role': 'PI', 'sub_pi_role': 'Sub-PI', 'secretary_role': 'Lab Secretary / 秘书',
+        'students_moved': 'Find the students on the People page.',
         'talks_heading': 'Invited talks', 'journal_review_heading': 'Journal review',
         'back_to_top': 'Back to top',
         'dynamic': {
@@ -59,7 +61,8 @@ LOCALES = {
         'skip': '跳至正文', 'home_label': 'Shiyang Ma 主页', 'nav_home': '首页',
         'language_label': '语言', 'navigation_label': '主导航', 'menu': '菜单', 'menu_open': '打开菜单',
         'nav_research': '研究方向', 'nav_publications': '精选论文', 'nav_software': '科研软件',
-        'nav_teaching': '教学', 'nav_about': '学术经历', 'nav_contact': '联系',
+        'nav_people': '团队', 'people_intro': 'Ma Lab 负责人、秘书与学生。',
+        'nav_teaching': '教学', 'nav_about': '关于', 'nav_contact': '联系',
         'university': '上海交通大学', 'hero_subtitle': '统计遗传学与生物统计学',
         'hero_description': '围绕高维遗传与基因组数据、变量选择和临床研究，开发统计与计算方法。',
         'explore_research': '了解研究方向', 'selected_publications': '查看精选论文',
@@ -75,12 +78,13 @@ LOCALES = {
         'empty_state': '未找到匹配的论文，请尝试其他题名、作者或年份。',
         'full_citation': '完整引文（英文原文）',
         'noscript': '当前显示全部论文。启用 JavaScript 后可检索并按年份筛选。',
-        'software_intro': '用于遗传关联研究的 R 软件包与结果浏览器。',
-        'package_type': 'R 软件包', 'browser_type': '结果浏览器',
-        'view_repository': '查看代码仓库', 'explore_results': '浏览研究结果',
+        'software_intro': '用于遗传关联研究的 R 软件包与研究数据。',
+        'view_repository': '查看代码仓库', 'view_dataset': '在 Zenodo 查看数据',
         'teaching_intro': '在上海交通大学开设的课程及客座授课。',
-        'about_heading': '学术经历与学生',
+        'about_heading': '关于',
         'experience_heading': '工作经历', 'education_heading': '教育背景', 'students_heading': '学生',
+        'pi_role': 'PI', 'sub_pi_role': 'Sub-PI', 'secretary_role': '秘书 / Lab Secretary',
+        'students_moved': '前往团队页查看学生。',
         'talks_heading': '受邀报告', 'journal_review_heading': '期刊审稿',
         'back_to_top': '返回顶部',
         'dynamic': {
@@ -95,6 +99,11 @@ RESEARCH_LAYOUT = {
     'research-interests-1': ('statistical-genetics', 'genetics_figure_alt', 'software'),
     'research-interests-2': ('biostatistics', 'biostatistics_figure_alt', 'publications'),
 }
+PEOPLE = (
+    ('portrait.jpeg', '马诗洋', 'Shiyang Ma', 'pi_role'),
+    ('people/tienan-feng.jpg', '冯铁男', 'Tienan Feng', 'sub_pi_role'),
+    ('people/xuequn-huang.jpg', '黄雪群', 'Xuequn Huang', 'secretary_role'),
+)
 
 
 def e(value):
@@ -160,7 +169,15 @@ def prepare_content(data, english, language):
         authors = original['citation_html'].split(f'({year})', 1)[0].strip()
         search_text = ' '.join([original['citation'], x['title'], x.get('text', '')]).lower()
         publications.append(f'<li class="publication" data-year="{year}" data-search="{e(search_text)}"><span class="publication-year">{year}</span><div class="publication-body"><h3 class="publication-title">{title}</h3><p class="publication-authors" lang="en">{authors}</p>{journal}<details class="citation-details"><summary>{e(labels["full_citation"])}</summary><p lang="en">{original["citation_html"]}</p></details></div></li>')
-    software = ''.join(f'<article class="software-item"><div class="software-meta"><span class="software-type">{e(labels["package_type"] if i < 3 else labels["browser_type"])}</span></div><h3><a href="{e(x["url"])}" target="_blank" rel="noopener noreferrer">{e(x["title"])}</a></h3><p>{e(x["description"])}</p><a class="text-link" href="{e(x["url"])}" target="_blank" rel="noopener noreferrer">{e(labels["view_repository"] if i < 3 else labels["explore_results"])} <span aria-hidden="true">↗</span></a></article>' for i, x in enumerate(data['software']))
+    software = []
+    for item in data['software']:
+        action = labels['view_dataset' if item['id'] == 'software-4' else 'view_repository']
+        url, title, description = (e(item[key]) for key in ('url', 'title', 'description'))
+        software.append(f'''<article class="software-item">
+          <h3><a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a></h3>
+          <p>{description}</p>
+          <a class="text-link" href="{url}" target="_blank" rel="noopener noreferrer">{e(action)} <span aria-hidden="true">↗</span></a>
+        </article>''')
     teaching = ''.join(f'<div class="teaching-row"><div class="teaching-title">{x["html"]}</div><span class="teaching-detail">{e(x["semester"])}</span></div>' for x in data['teaching'])
 
     def timeline(items, date_key):
@@ -184,13 +201,13 @@ def prepare_content(data, english, language):
                 raise ValueError(f'Advisor name missing from {item["id"]} in {language}.')
             link = f'<a href="{e(profile["url"])}">{e(profile.get("label", mention))}</a>'
             description = e(before) + link + e(after)
-        students.append(f'<div class="student-item"><h4>{e(name)}</h4><p>{description}</p></div>')
+        students.append(f'<li class="student-item"><h3>{e(name)}</h3><p>{description}</p></li>')
     talks = ''.join(f'<div class="talk-row"><span>{e(x["date"])}</span><p>{e(x["title"])}</p></div>' for x in data['invited_talks'])
     total = len(publications)
     substitutions.update({
         'social_links': social, 'research': '\n'.join(research), 'publications': '\n'.join(publications),
         'year_options': ''.join(f'<option value="{year}">{year}</option>' for year in sorted({x['year'] for x in english['publications']}, reverse=True)),
-        'software': software, 'teaching': teaching,
+        'software': '\n'.join(software), 'teaching': teaching,
         'experience': timeline(data['experience'], 'period'), 'education': timeline(data['education'], 'year'),
         'students': ''.join(students), 'talks': talks,
         'talk_count': f'{len(data["invited_talks"])} 场报告' if chinese else f'{len(data["invited_talks"])} talks',
@@ -228,6 +245,7 @@ def render_page(content, language, page, template, section):
         'home_href': section_hrefs['home'],
         'research_href': section_hrefs['research'],
         'publications_href': section_hrefs['publications'],
+        'people_href': section_hrefs['people'],
         'nav_links': '\n      '.join(nav_links),
         'banner': '',
     }
@@ -236,6 +254,19 @@ def render_page(content, language, page, template, section):
     else:
         values['page_title'] = f'{e(labels[f"nav_{page}"])} | {content["name"]}'
         values['description'] = content.get(f'{page}_intro', content['description'])
+    if page == 'people':
+        cards = []
+        for image, name_zh, name_en, role in PEOPLE:
+            if language == 'zh':
+                name = f'{e(name_zh)} <span lang="en">{e(name_en)}</span>'
+            else:
+                name = f'{e(name_en)} <span lang="zh-CN">{e(name_zh)}</span>'
+            cards.append(f'''<li class="person-card">
+          <img src="{assets_prefix}{image}" alt="" class="{role.replace('_', '-')}">
+          <h2>{name}</h2>
+          <p>{e(labels[role])}</p>
+        </li>''')
+        values['people_cards'] = '\n'.join(cards)
     values['page_content'] = section.substitute(values).strip()
     return path, template.substitute(values)
 
@@ -254,9 +285,12 @@ def main():
     assets = DEST / 'assets'
     assets.mkdir(exist_ok=True)
     figures = tuple(f'{figure}-{language}.png' for figure, _, _ in RESEARCH_LAYOUT.values() for language in LOCALES)
-    asset_names = ('site.css', 'site.js', 'portrait.jpeg', 'favicon.svg', 'lab-banner.jpg', *figures)
+    people_assets = (image for image, *_ in PEOPLE)
+    asset_names = ('site.css', 'site.js', 'favicon.svg', 'lab-banner.jpg', *people_assets, *figures)
     for name in asset_names:
-        shutil.copyfile(ROOT / name, assets / name)
+        target = assets / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / name, target)
     for path, html in pages:
         destination = DEST.joinpath(*path.parts)
         destination.parent.mkdir(parents=True, exist_ok=True)

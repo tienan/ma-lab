@@ -14,6 +14,15 @@
     window.addEventListener('hashchange', redirectLegacyBookmark);
   }
 
+  const studentsBookmark = document.querySelector('.students-bookmark a');
+  if (studentsBookmark) {
+    const redirectStudentsBookmark = () => {
+      if (location.hash === '#students') location.replace(studentsBookmark.href);
+    };
+    redirectStudentsBookmark();
+    window.addEventListener('hashchange', redirectStudentsBookmark);
+  }
+
   const labels = JSON.parse(document.getElementById('site-i18n').textContent);
   const menu = document.querySelector('.menu-toggle');
   const menuLabel = menu?.querySelector('.menu-label');
