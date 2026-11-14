@@ -111,23 +111,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 
 .brand-mark {
-  display: grid;
-  grid-auto-flow: column;
-  align-content: center;
-  justify-content: center;
+  display: block;
   width: 46px;
   height: 46px;
-  border: 1px solid var(--accent);
-  background: var(--accent);
-  color: var(--white);
-  font-family: var(--serif);
-  font-size: 21px;
-  letter-spacing: -.05em;
 }
 
-.brand-mark > span { color: #b7ddd5; }
-.brand > span:not(.brand-mark) { display: grid; gap: 5px; min-width: 0; }
-.brand-name { font-size: 22px; font-weight: 650; letter-spacing: -.025em; }
+.brand-wordmark { display: grid; gap: 4px; min-width: 0; }
+.brand-name { font-size: 29px; font-weight: 730; line-height: 1; letter-spacing: -.055em; }
+.brand-name > span { color: var(--accent); font-weight: 580; }
 .brand-caption { color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
 
 .language-switch {
@@ -558,8 +549,8 @@ html:lang(zh) .teaching-title { font-family: var(--sans); font-size: 18px; line-
 
   .shell { width: calc(100% - 56px); }
   .brand { grid-template-columns: 40px minmax(0, auto); gap: 11px; }
-  .brand-mark { width: 40px; height: 40px; font-size: 19px; }
-  .brand-name { font-size: 19px; }
+  .brand-mark { width: 40px; height: 40px; }
+  .brand-name { font-size: 26px; }
   .brand-caption { font-size: 9px; }
 
   /* Keep direct links available while the menu script is unavailable. */
@@ -623,7 +614,7 @@ html:lang(zh) .teaching-title { font-family: var(--sans); font-size: 18px; line-
   .masthead-inner { gap: 9px; }
   .brand { grid-template-columns: 37px minmax(0, auto); gap: 9px; }
   .brand-mark { width: 37px; height: 37px; }
-  .brand-name { font-size: 17px; }
+  .brand-name { font-size: 23px; }
   .brand-caption { font-size: 8px; letter-spacing: .07em; }
   .language-switch { gap: 3px; font-size: 11px; }
   .language-link { padding-inline: 4px; }

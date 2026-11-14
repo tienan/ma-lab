@@ -18,7 +18,7 @@ LOCALES = {
     'en': {
         'lang': 'en', 'page_title': 'Shiyang Ma | Statistical Genetics & Biostatistics',
         'description': 'Shiyang Ma — statistical genetics and biostatistics at Shanghai Jiao Tong University. Research, selected publications, software and teaching.',
-        'skip': 'Skip to content', 'home_label': 'Shiyang Ma home', 'nav_home': 'Home',
+        'skip': 'Skip to content', 'home_label': 'MaLab home', 'nav_home': 'Home',
         'language_label': 'Language', 'navigation_label': 'Main navigation', 'menu': 'Menu', 'menu_open': 'Open menu',
         'nav_research': 'Research', 'nav_publications': 'Publications', 'nav_software': 'Software',
         'nav_people': 'People', 'people_intro': 'Ma Lab leadership, staff and students.',
@@ -58,7 +58,7 @@ LOCALES = {
     'zh': {
         'lang': 'zh-CN', 'page_title': 'Shiyang Ma｜统计遗传学与生物统计学',
         'description': 'Shiyang Ma 的学术主页：上海交通大学统计遗传学与生物统计学研究、精选论文、科研软件及教学。',
-        'skip': '跳至正文', 'home_label': 'Shiyang Ma 主页', 'nav_home': '首页',
+        'skip': '跳至正文', 'home_label': 'MaLab 首页', 'nav_home': '首页',
         'language_label': '语言', 'navigation_label': '主导航', 'menu': '菜单', 'menu_open': '打开菜单',
         'nav_research': '研究方向', 'nav_publications': '精选论文', 'nav_software': '科研软件',
         'nav_people': '团队', 'people_intro': 'Ma Lab 负责人、秘书与学生。',
